@@ -47,6 +47,62 @@
 }
 
 
+/*************************************************************************************************
+  # Секция №1 "С кем мы хотим сотрудничать"
+**************************************************************************************************/
+.partners-program-whom-we-want-collaborate-with {
+  width: 100%;
+  height: 357px;
+
+}
+
+.partners-program-whom-we-want-collaborate-with__wrapper {
+  width: 100%;
+  height: 357px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.partners-program-whom-we-want-collaborate-with__wrapper-center {
+  display: flex;
+  flex-direction: column;
+  gap: 22px;
+}
+
+.partners-program-whom-we-want-collaborate-with__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  color: var(--main-color);
+
+  display: flex;
+  justify-content: center;
+
+
+
+}
+
+.partners-program-whom-we-want-collaborate-with__info {
+  display: flex;
+  justify-content: center;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: var(--main-color);
+
+}
+
+.partners-program-whom-we-want-collaborate-with__info p {
+  width: 62%;
+  text-align: center;
+}
+
+
 
 
 
@@ -76,6 +132,12 @@
     width: 68%;
   }
 
+  /*************************************************************************************************
+  # Секция №1 "С кем мы хотим сотрудничать"
+  **************************************************************************************************/
+  .partners-program-whom-we-want-collaborate-with__info p {
+    width: 86%;
+  }
 
 }
 
@@ -85,6 +147,33 @@
     margin-bottom: 16px;
   }
 
+  /*************************************************************************************************
+  # Секция №1 "С кем мы хотим сотрудничать"
+  **************************************************************************************************/
+  .partners-program-whom-we-want-collaborate-with__info p {
+    width: 96%;
+  }
+
+
+}
+
+@media only screen and (max-width: 623px) {
+  .partners-program-whom-we-want-collaborate-with .container {
+    width: 90%;
+  }
+
+  .partners-program-whom-we-want-collaborate-with__title {
+    justify-content: left;
+  }
+
+  .partners-program-whom-we-want-collaborate-with__info {
+    justify-content: left;
+  }
+
+  .partners-program-whom-we-want-collaborate-with__info p {
+    width: 100%;
+    text-align: left;
+  }
 }
 
 @media only screen and (max-width: 600px) {
@@ -108,6 +197,17 @@
   }
 
 
+}
+
+@media only screen and (max-width: 536px) {
+  .partners-program-whom-we-want-collaborate-with {
+    height: 82vh;  
+  }
+  
+  .partners-program-whom-we-want-collaborate-with__wrapper {
+    height: 82vh;
+
+  }
 }
 
 @media only screen and (max-width: 360px) {
