@@ -1,0 +1,187 @@
+.account-main-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+}
+
+.account-nav-wrapper ul {
+  display: flex;
+}
+
+/* Стрелочная нав. панель */
+.account-arrow-nav {
+  display: flex;
+  font-size: var(--fs-16);
+  font-family: var(--mont-ff);
+}
+
+.account-status-date-wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: right;
+
+  font-family: var(--mont-ff);
+  font-size: var(--fs-16);
+  color: var(--main-color);
+}
+
+.status, .date {
+  text-align: right;
+}
+
+/* Контейнер с ID умершего */
+.id-container {
+  display: flex;
+  gap: 40px;
+}
+
+.id-container__card {
+  width: 100%;
+  box-shadow: 0px 2px 5px 0px #0000001A;
+  border-radius: 16px;
+  padding: 5px 0;
+}
+
+.id-dateline-wrapper {
+  display: flex;
+  gap: 8px;
+}
+
+.id-line {
+  width: 100%;
+  margin: 32px 0;
+  background: var(--main-color);
+  border: 1px solid var(--main-color);
+}
+
+.grave-info-title {
+  margin-bottom: 15px;
+}
+
+.grave-info__line {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 12px;
+}
+
+/* Таблица Оказываемые услуги */
+.services-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  text-align: left;
+  font-family: 'Montserrat', sans-serif;
+  font-size: var(--fs-20);
+  font-weight: var(--fw-600);
+  line-height: var(--lh-30);
+  color: var(--main-color);
+  padding: 20px 0;
+}
+
+td {
+  padding: 20px 0;
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--fs-20);
+  font-weight: var(--fw-400);
+  line-height: var(--lh-30);
+  color: var(--main-color);
+}
+
+tr {
+  border-bottom: 1px solid var(--main-color);
+}
+
+.table-sum-row {
+  width: 100%;
+  justify-content: space-between;
+}
+
+.sum { font-weight: var(--fw-600); }
+.total { font-weight: var(--fw-600); }
+
+.table-btn-wrapper {
+  display: flex;
+  justify-content: right;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* Адаптация для мобилки (min-width: 360px) */
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+  .account-nav-wrapper ul {
+    flex-direction: column;
+  }
+  
+  .account-nav-wrapper ul li {
+    justify-content: left;
+  }
+
+  /* Стрелочная нав. панель */
+  .account-arrow-nav {
+    font-size: var(--fs-14);
+  } 
+  
+  /* ID карточка */
+  .id-container {
+    flex-direction: column;
+  }
+
+  .id-container__photo {
+    width: 320px;
+  }
+
+  .grave-info__line {
+    flex-direction: column;
+  }
+
+  /* Таблица */
+  th {
+    font-size: var(--fs-16);
+  }
+  
+  td {
+    font-size: var(--fs-12);
+  }
+
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .account-nav-wrapper ul {
+    flex-direction: row;
+  }
+  
+  /* Стрелочная нав. панель */
+  .account-arrow-nav {
+    font-size: var(--fs-16);
+  }
+
+  /* ID карточка */
+  .id-container {
+    flex-direction: row;
+  }
+
+  .id-container__photo {
+    width: 320px;
+  }
+
+  .grave-info__line {
+    flex-direction: row;
+  }  
+  
+}

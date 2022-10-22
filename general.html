@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/general.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- Link Checkbox Styles -->
+    <link rel="stylesheet" href="./assets/chbox/chbox.css">
+    <link rel="stylesheet" href="./assets/btn/btn.css">
+
+    <!-- Link to Poppins Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to Montserrat Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">     
+
+
+    <title>Личный кабинет - Общая информация</title>
+  </head>
+  <body>
+    <div class="information">
+      <div class="information__container">
+          <!-- Заголовок -->
+          <div class="account-title-wrapper">
+            <h1>Личный кабинет</h1>
+          </div>
+
+          <!-- Меню бургер для нав панели при мобилке -->
+          <div class="account-nav-burger">
+            <span class="account-nav-burger__line line-one"></span>
+            <span class="account-nav-burger__line line-two"></span>
+            <span class="account-nav-burger__line line-three"></span>
+          </div>
+
+          <!-- Навигационная панель -->
+          <nav class="account-nav-wrapper">
+            <ul>
+              <li class="mont-16"><a href="#" class="active">Общая информация</a></li>
+              <li class="mont-16"><a href="#">Мои захоронения</a></li>
+              <li class="mont-16"><a href="#">Настройка профиля</a></li>
+              <li class="mont-16"><a href="#">История</a></li>
+            </ul>
+          </nav>
+
+          <!-- Блок - центр (календарь + блог) -->
+          <div class="account-wrapper">
+            <!-- Верстка календаря -->
+            <div class="account-wrapper__calendar">
+              <ul class="calendar-month-wrapper">
+                <li><a href="#"><img width="12px" height="12px" src="./icons/chevron-left.png" alt="./icons/chevron-left.png"></a></li>
+                <li><p class="popp-20">Октябрь</p></li>
+                <li><a href="#"><img width="12px" height="12px" src="./icons/chevron-right.png" alt="./icons/chevron-right.png"></a></li>
+              </ul>
+              <ul class="calendar-week-wrapper">
+                <li class="popp-16">Пн</li>
+                <li class="popp-16">Вт</li>
+                <li class="popp-16">Ср</li>
+                <li class="popp-16">Чт</li>
+                <li class="popp-16">Пт</li>
+                <li class="popp-16">Сб</li>
+                <li class="popp-16">Вс</li>
+              </ul>
+              <ul class="calendar-days-wrapper popp-14">
+                <li>1</li>
+                <li>2</li>
+                <li>3</li>
+                <li>4</li>
+                <li>5</li>
+                <li>6</li>
+                <li class="active">7</li>
+                <li>8</li>
+                <li>9</li>
+                <li>10</li>
+                <li>11</li>
+                <li>12</li>
+                <li>13</li>
+                <li>14</li>
+                <li>15</li>
+                <li>16</li>
+                <li>17</li>
+                <li>18</li>
+                <li>19</li>
+                <li>20</li>
+                <li>21</li>
+                <li>22</li>
+                <li>23</li>
+                <li>24</li>
+                <li>25</li>
+                <li>26</li>
+                <li>27</li>
+                <li>28</li>
+                <li>29</li>
+                <li>30</li>
+                <li>31</li>
+
+              </ul>
+            </div>
+
+            <!-- Верстка для блог контента -->
+            <div class="account-wrapper__event-wrapper">
+              <!-- Заголовок -->
+              <div class="event-title-wrapper">
+                <h2>Предстоящие события</h2>
+              </div>
+
+              <div class="event-wrapper">
+                <img width="76px" height="64px" class="event-wrapper__img" src="./images/event-wrapper__img.png" alt="./images/event-wrapper__img.png">
+                <div class="event-wrapper__content">
+                  <div class="event-title">
+                    <h3>Название праздника</h3>
+                  </div>
+                  <div class="event-desc">
+                    <p class="popp-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non convallis tellus.</p>
+                  </div>
+                </div>
+                <div class="event-wrapper__btn">
+                  <button class="btn-auth">Подробнее</button>
+                </div>
+              </div>
+
+              <!-- Обертки для блогов -->
+
+            </div>
+          </div>
+      </div>
+    </div>
+
+
+    <script src="./assets/js/script.js"></script>
+  </body>
+</html>

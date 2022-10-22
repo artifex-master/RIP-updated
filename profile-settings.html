@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Links to custom CSS -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/profile-settings.css">
+    <link rel="stylesheet" href="./assets/btn/btn.css">
+
+
+
+    <!-- Link to Poppins Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to Montserrat Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">     
+
+    <!-- Document Title -->
+    <title>Настройка профиля</title>
+  </head>
+  <body>
+    <div class="information">
+      <div class="information__container">
+
+        <!-- Основной блок с содержимым -->
+        <div class="account-main-wrapper">
+          <!-- Заголовок -->
+          <div class="account-title-wrapper" style="margin-bottom: 40px;">
+            <h1>Личный кабинет</h1>
+          </div>
+
+          <!-- Навигационная панель -->
+          <nav class="account-nav-wrapper">
+            <ul>
+              <li class="mont-16"><a href="#">Общая информация</a></li>
+              <li class="mont-16"><a href="#" class="active">Мои захоронения</a></li>
+              <li class="mont-16"><a href="#">Настройка профиля</a></li>
+              <li class="mont-16"><a href="#">История</a></li>
+            </ul>
+          </nav> 
+
+          <!-- Обертка с заголовком -->
+          <div class="profile-settings-title" style="margin-bottom: 32px;">
+            <h2>Настройка профиля</h2>
+          </div>
+
+          <!-- Блок с основным содержимым -->
+          <div class="profile-settings-main-wrapper">
+            <!-- Левая сторона -->
+            <div class="profile-settings-main__left">
+              <!-- Кнопки: Личная информация и Платежи -->
+              <button class="btn" style="margin-bottom: 14px;">Личная информация</button>
+              <button class="btn-transparent">Платежи</button>
+            </div>
+
+            <!-- Правая сторона -->
+            <div class="profile-settings-main__right">
+              <!-- Блок Основная Информация -->
+              <div class="profile-info-main">
+                <!-- Заголовок -->
+                <div class="profile-info-main__title">
+                  <h2>Основная Информация</h2>
+                </div>
+
+                <!-- Содержание -->
+                <div class="profile-info-main__content">
+                  <div class="profile-info" style="border-bottom: 1px solid var(--main-color); padding-bottom: 16px;">
+                    <table style="width: 100%;">
+                      <tr>
+                          <td class="profile-info-header">Фотография</td>
+                          <td class="profile-info-data">Фотография помогает персонализировать ваш аккаунт</th>
+                          <td><a href="#"><img class="profile-photo" width="52px" height="52px" src="./images/profile-icon.png" alt="./images/profile-icon.png"></a></td>
+                        </tr>
+                    </table>
+                  </div>
+
+                  <div class="profile-info" style="border-bottom: 1px solid var(--main-color); padding: 16px 0;">
+                    <table style="width: 100%;">
+                      <tr>
+                          <td class="profile-info-header">ФИО</td>
+                          <td class="profile-info-data">Фамилия Имя Отчество</th>
+                          <td><a href="#"><img class="edit-icon" width="18px" height="18px" src="./images/edit-icon.png" alt="./images/edit-icon.png"></a></td>
+                        </tr>
+                    </table>
+                  </div>  
+                  
+                  <div class="profile-info" style="padding: 16px 0;">
+                    <table style="width: 100%;">
+                      <tr>
+                          <td class="profile-info-header">Дата Рождения</td>
+                          <td class="profile-info-data">12.12.22</th>
+                          <td><a href="#"><img class="edit-icon" width="18px" height="18px" src="./images/edit-icon.png" alt="./images/edit-icon.png"></a></td>
+                        </tr>
+                    </table>
+                  </div>            
+
+                </div>
+              </div>
+
+              <div class="profile-info-main">
+                <!-- Заголовок -->
+                <div class="profile-info-main__title">
+                  <h2>Контактная Информация</h2>
+                </div>
+
+                <!-- Содержание -->
+                <div class="profile-info-main__content">
+                  <div class="profile-info" style="border-bottom: 1px solid var(--main-color); padding-bottom: 16px;">
+                    <table style="width: 100%;">
+                      <tr>
+                          <td class="profile-info-header">Электронная почта</td>
+                          <td class="profile-info-data">example@gmail.com</th>
+                          <td><a href="#"><img class="profile-photo" width="18px" height="18px" src="./images/edit-icon.png" alt="./images/edit-icon.png"></a></td>
+                        </tr>
+                    </table>
+                  </div>
+
+                  <div class="profile-info" style="padding: 16px 0;">
+                    <table style="width: 100%;">
+                      <tr>
+                          <td class="profile-info-header">Телефон</td>
+                          <td class="profile-info-data">+7(777) 777 -77 -77</th>
+                          <td><a href="#"><img class="edit-icon" width="18px" height="18px" src="./images/edit-icon.png" alt="./images/edit-icon.png"></a></td>
+                        </tr>
+                    </table>
+                  </div>  
+                          
+
+                </div>
+              </div>
+
+              <div class="profile-info-main">
+                <!-- Заголовок -->
+                <div class="profile-info-main__title">
+                  <h2>Пароль</h2>
+                </div>
+
+                <!-- Содержание -->
+                <div class="profile-info-main__content">
+                  <div class="profile-info">
+                    <table style="width: 100%;">
+                      <tr>
+                          <td class="profile-info-header">**********</td>
+                          <td class="profile-info-data"></th>
+                          <td><a href="#"><img class="profile-photo" width="18px" height="18px" src="./images/edit-icon.png" alt="./images/edit-icon.png"></a></td>
+                        </tr>
+                    </table>
+                  </div>
+                  <div class="profile-info" style="padding: 16px 0;">
+                    <table style="width: 100%;">
+                      <tr>
+                          <td class="profile-info-header">Последние изменения: 24.04.2022</td>
+                      </tr>
+                    </table>
+                  </div>             
+                </div>
+              </div>    
+              
+              <div class="profile-info-main">
+                <!-- Заголовок -->
+                <div class="profile-info-main__title">
+                  <h2>Уведомления</h2>
+
+                </div>
+
+                <!-- Содержание -->
+                <div class="profile-info-main__content">
+                  <div class="profile-info">
+                    <table style="width: 100%;">
+                        <tr>
+                          <td class="profile-info-header notifications">Включите уведомление о захоронении вашего близкого человека и мы будем напоминать вам заблаговременно о предстоящих важных датах.</td>
+                        </tr>
+                    </table>
+                  </div>
+                  
+                </div>
+              </div>               
+
+
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

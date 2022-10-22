@@ -1,0 +1,81 @@
+.btn {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 400;
+  font-size: 1rem;
+  padding: 15px 65px;
+  color: #fff;
+  background: #224C4F;
+  border: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-more {
+  font-family: var(--mont-ff);
+  font-size: var(--fs-12);
+  font-weight: var(--fw-400);
+  background: var(--btn-more);
+  padding: 12px;
+  border-radius: 10px;
+  border: 0;
+  cursor: pointer;
+}
+
+
+
+.btn-regular {
+  background: var(--btn-regular);
+  font-family: 'Montserrat', sans-serif;
+  font-size: 16px;
+  line-height: 20px;
+  color: var(--main-color);
+  padding: 12px;
+  gap: 8px;
+  border: 1px solid var(--main-color);
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.btn-regular:hover {
+  background: var(--main-color);
+  border: 0;
+  box-shadow: 2px 2px 7px 0px #00000040;
+  color: var(--white-color);
+  border: 1px solid var(--main-color);
+
+}
+
+.btn-transparent {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: var(--fw-400);
+  font-size: var(--fs-16);
+  background: transparent;
+  padding: 12px;
+  border: 0;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+.btn-transparent-white {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: var(--fw-400);
+  font-size: var(--fs-16);
+  background: transparent;
+  padding: 12px;
+  border: 1px solid #fff;
+  color: #fff;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}

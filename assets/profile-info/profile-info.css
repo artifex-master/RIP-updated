@@ -1,0 +1,93 @@
+.profile-info-main {
+  border: 1px solid var(--main-color);
+  border-radius: 16px;
+  padding: 12px 15px;
+  margin-bottom: 25px;
+}
+
+.profile-info-main__title {
+  width: 100%;
+  margin-bottom: 37px;
+}
+
+.profile-info-header {
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--fs-16);
+  font-weight: var(--fw-400);
+  line-height: var(--lh-24);
+  color: var(--main-color);
+  text-align: left;
+}
+
+.profile-info-data {
+  font-family: 'Poppins', sans-serif;
+  padding: 0 20px;
+  font-size: var(--fs-20);
+  color: var(--main-color);
+
+}
+
+.notifications {
+  padding-right: 320px;
+}
+
+
+
+
+/* Адаптация */
+@media only screen and (min-width: 360px) {
+ 
+  
+  .profile-info-main__content tr {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .profile-info-data {
+    padding: 0;
+    text-align: left;
+  }
+
+  .profile-photo {
+    position: fixed;
+    visibility: hidden;
+  }
+
+  .edit-icon {
+    position: fixed;
+    visibility: hidden;
+  }
+
+}
+
+@media only screen and (min-width: 1024px) {
+  .profile-info-main__content tr {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .profile-info-header, .profile-info-data {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: left;
+  }
+
+  .profile-photo {
+    position: relative;
+    visibility: visible;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+  }
+
+  .edit-icon {
+    position: relative;
+    visibility: visible;
+  }
+
+}

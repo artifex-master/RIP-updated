@@ -1,0 +1,32 @@
+.order-status-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 7px;
+}
+
+.order-status-wrapper__num {
+  background: #DADADA;
+  font-family: 'Poppins', sans-serif;
+  font-size: var(--fs-14);
+  font-weight: var(--fw-400);
+  line-height: var(--lh-22);
+  width: 20px;
+  height: 20px;
+  color: var(--white-color);
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.order-status-wrapper__num.active {
+  background: var(--main-color);
+}
+
+.order-status-wrapper p.active {
+  font-weight: var(--fw-600);
+}
+
+.order-status-wrapper__img {
+  height: 1px;
+}

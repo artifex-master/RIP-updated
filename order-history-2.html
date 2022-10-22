@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Links to custom CSS -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/order-history.css">
+    <link rel="stylesheet" href="./assets/btn/btn.css">
+
+
+    <!-- Link to Poppins Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to Montserrat Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">     
+
+    <!-- Document Title -->
+    <title>История Заказов</title>
+  </head>
+  <body>
+    <div class="information">
+      <div class="information__container">
+
+        <!-- Основной блок с содержимым -->
+        <div class="account-main-wrapper">
+          <!-- Заголовок -->
+          <div class="account-title-wrapper">
+            <h1>Личный кабинет</h1>
+          </div>
+
+          <!-- Навигационная панель -->
+          <nav class="account-nav-wrapper">
+            <ul>
+              <li class="mont-16"><a href="#">Общая информация</a></li>
+              <li class="mont-16"><a href="#">Мои захоронения</a></li>
+              <li class="mont-16"><a href="#">Настройка профиля</a></li>
+              <li class="mont-16"><a href="#" class="active">История</a></li>
+            </ul>
+          </nav> 
+
+          <!-- Обертка с заголовком -->
+          <div class="profile-settings-title" style="margin-bottom: 32px;">
+            <h2>История Заказов</h2>
+          </div>  
+          
+          <!-- ID-контейнер -->
+          <div class="id-container">
+            <!-- Фото -->
+            <div class="id-container__photo-wrapper">
+              <img class="id-container__photo" src="./images/id-container__photo.png" alt="./images/id-container__photo.png">
+            </div>
+
+            <!-- Карточка -->
+              <div class="id-container__card">
+                <div class="id-fullname-wrapper" style="margin-bottom: 8px;">
+                    <h2>Фамилия Имя Отчество</h2>
+                </div>
+                  <!-- Строчка с датой и календарем -->
+                  <div class="id-dateline-wrapper">
+                    <img width="20px" height="20px" class="eva_calendar-fill.png" src="./images/eva_calendar-fill.png" alt="./images/eva_calendar-fill.png" style="margin-top: 1px;">
+                    <p class="popp-16">12/08/1934-29.06.2015</p>
+                  </div>
+
+                  <div class="id-line"></div>
+                  <div class="grave-info-title">
+                    <h2>Информация о захоронении</h2>
+                  </div>
+                  <div class="grave-info">
+                    <div class="grave-info__line">
+                      <span class="mont-20-600">Номер захоронения</span><p class="popp-20">#66-КУ-044919</p></strong>
+                    </div>
+                    <div class="grave-info__line">
+                      <span class="mont-20-600">Тип</span><p class="popp-20">Захоронение в участке</p></strong>
+                    </div>
+                    <div class="grave-info__line">
+                      <span class="mont-20-600">Кладбище</span><p class="popp-20">Кенсай</p></strong>
+                    </div>
+                    <div class="grave-info__line">
+                      <span class="mont-20-600">Квартал</span><p class="popp-20">3</p></strong>
+                    </div>
+                    <div class="grave-info__line">
+                      <span class="mont-20-600">Участок</span><p class="popp-20">&66-КУ-035034</p></strong>
+                    </div>
+                    <div class="grave-info__line">
+                      <span class="mont-20-600">Координаты</span><p class="popp-20">56.35107309557659, 62.01158847670595
+                      </p></strong>
+                    </div>
+
+                  </div>
+                </div>
+          </div>          
+          
+          <!-- Обертка с заголовком -->
+          <div class="profile-settings-title" style="margin-bottom: 32px;">
+            <h2>История Заказов</h2>
+          </div>
+          
+          <!-- Таблица Истории Заказов -->
+          <div class="services-table-wrapper">
+            <h3>Оказываемые услуги</h3>
+            <table>
+              <thead>
+                <th><h3>Название</h3></th>
+                <th><h3>Вид</h3></th>
+                <th style="text-align: right;"><h3>Сумма</h3></th>
+  
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Благоустройство</td>
+                  <td>Уборка могилы</td>
+                  <td style="text-align: right;">10 000тг</td>
+                </tr>
+                <tr>
+                  <td>Благоустройство</td>
+                  <td>Уборка могилы</td>
+                  <td style="text-align: right;">10 000тг</td>
+                </tr>
+                <tr>
+                  <td>Благоустройство</td>
+                  <td>Уборка могилы</td>
+                  <td style="text-align: right;">10 000тг</td>
+                </tr>
+                <tr style="border-bottom: 0;">
+                  <td><span class="total">Итого:</span></td>
+                  <td></td>
+                  <td style="text-align: right;"><span class="total-sum">10 000тг</span></td>
+                </tr>                            
+  
+              </tbody>
+  
+            </table>
+            <div class="services-btn-wrapper">
+              <button class="btn-regular">Повторить заказ</button>
+            </div>
+          </div>
+          
+          <!-- Фотоотчет / Галерея -->
+          <div class="photo-gallery-wrapper">
+            <h3>Фотоотчет</h3>
+            <p class="popp-16">До</p>
+            <div class="photo-gallery">
+              <div class="photo-gallery__block-one">
+                <div class="gallery-main-photo">
+                  <img width="400px" height="224px" class="photo-gallery-main__img.png" src="./images/photo-gallery-main__img.png" alt="./photo-gallery-main__img.png">
+                  <div class="gallery-subphotos">
+                    <img style="border: 3px solid var(--main-color); border-radius: 6px;" src="./images/item-2.png" alt="./item-2.png">
+                    <img  src="./images/item-2.png" alt="./item-2.png">
+                    <img src="./images/item-2.png" alt="./item-2.png">
+                    <img src="./images/item-2.png" alt="./item-2.png">
+    
+                  </div>            
+                
+                </div>
+                <div class="arrow-slider-holder">
+                  <div class="arrow-slider">
+                    <img width="16px" height="16px" src="./icons/chevron-left.png" alt="./chevron-left.png">
+                  </div>
+                  <div class="arrow-slider">
+                    <img width="16px" height="16px" src="./icons/chevron-right.png" alt="./chevron-right.png">
+                  </div>
+                </div>
+    
+    
+              </div>
+              <div class="photo-gallery__block-two">
+                <div class="gallery-main-photo">
+                  <img width="400px" height="224px" class="photo-gallery-main__img.png" src="./images/photo-gallery-main__img-2.png" alt="./images/photo-gallery-main__img.png">
+                  <div class="gallery-subphotos">
+                    <img style="border: 3px solid var(--main-color); border-radius: 6px;" src="./images/item-2.png" alt="./item-2.png">
+                    <img  src="./images/item-2.png" alt="./images/item-2.png">
+                    <img src="./images/item-2.png" alt="./images/item-2.png">
+                    <img src="./images/item-2.png" alt="./images/item-2.png">
+    
+                  </div>            
+                
+                </div>
+                <div class="arrow-slider-holder">
+                  <div class="arrow-slider">
+                    <img width="16px" height="16px" src="./icons/chevron-left.png" alt="./chevron-left.png">
+                  </div>
+                  <div class="arrow-slider">
+                    <img width="16px" height="16px" src="./icons/chevron-right.png" alt="./chevron-right.png">
+                  </div>
+                </div>
+    
+    
+              </div>          
+    
+    
+    
+            </div>
+    
+    
+          </div>
+
+
+
+
+      </div>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,15 @@
+.account-nav-wrapper {
+  margin-bottom: 40px;
+}
+
+.account-nav-wrapper ul {
+  width: 100%;
+  display: flex;
+  gap: 22px;
+
+}
+
+.account-nav-wrapper ul li a.active {
+  padding: 12px;
+  border-radius: 8px;
+}

@@ -1,0 +1,68 @@
+.cart-img-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.cart-img-subtitle-wrapper {
+  text-align: center;
+}
+
+.cart-btn-auth-wrapper {
+  text-align: center;
+}
+
+/***************************************************************************************************
+  # Адаптация
+***************************************************************************************************/
+@media only screen and (min-width: 320px) and (max-width: 360px) {
+  .information {
+    padding: 20px;
+  }
+  
+  .information__container {
+    max-width: 100%;
+  }  
+
+  .cart-img-wrapper__img {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 360px) and (max-width: 768px) {
+  .information {
+    padding: 20px;
+  }
+  
+  .information__container {
+    max-width: 100%;
+  }
+
+  .cart-img-wrapper__img {
+    width: 60%;
+  }  
+
+}
+
+@media only screen and (min-width: 768px) and (max-width: 1280px) {
+  .information {
+    padding: 20px;
+  }
+  
+  .information__container {
+    max-width: 100%;
+  }
+
+  .cart-img-wrapper__img {
+    width: 60%;
+  }  
+
+}
+
+@media only screen and (min-width: 1280px) { 
+  .cart-img-wrapper__img {
+    width: 25%;
+  } 
+
+}

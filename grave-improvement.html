@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Link Custom CSS -->
+    <link rel="stylesheet" href="./assets/grave_improvement.css" />
+    <link rel="stylesheet" href="./assets/style.css" />    
+
+    <!-- Link to Poppins Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to Montserrat Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">     
+
+    <title>Благоустройство могилы</title>
+
+  </head>
+  <body>
+    <div class="information">
+      <div class="information__container">
+
+        <!-- Основной блок с содержимым -->
+        <div class="account-main-wrapper">
+          <!-- Заголовок -->
+          <div class="account-title-wrapper">
+            <h1>Личный кабинет</h1>
+          </div>
+
+          <!-- Навигационная панель -->
+          <nav class="account-nav-wrapper">
+            <ul>
+              <li class="mont-16"><a href="#" class="active">Общая информация</a></li>
+              <li class="mont-16"><a href="#">Мои захоронения</a></li>
+              <li class="mont-16"><a href="#">Настройка профиля</a></li>
+              <li class="mont-16"><a href="#">История</a></li>
+            </ul>
+          </nav>
+          
+          <!-- Стрелочная нав. панель -->
+          <ul class="account-arrow-nav">
+            <li><a href="#">Предстоящие события</a></li>
+            <li><img width="12px" height="12px" src="./icons/chevron-right.png" alt="./icons/chevron-right.png"></li>
+            <li><a href="#"><strong>Благоустройство могилы</strong></a></li>
+          </ul>
+
+          <!-- Заголовок -->
+          <div class="account-title">
+            <h3>Благоустройство могилы</h3>
+          </div>
+
+          <!-- Статус и дата -->
+          <div class="account-status-date-wrapper">
+            <div class="status" style="margin-bottom: 8px;">
+              Статус: <strong>ОЖИДАЕТСЯ</strong>
+            </div>
+            <div class="date">
+              Дата оказания услуги: <strong>12.12.2022</strong>
+            </div>
+
+          </div>
+
+          <!-- ID-контейнер -->
+          <div class="id-container">
+            <!-- Фото -->
+            <div class="id-container__photo-wrapper">
+              <img class="id-container__photo" src="./images/id-container__photo.png" alt="./images/id-container__photo.png">
+            </div>
+
+            <!-- Карточка -->
+            <div class="id-container__card">
+              <div class="id-fullname-wrapper" style="margin-bottom: 8px;">
+                <h2>Фамилия Имя Отчество</h2>
+              </div>
+              <!-- Строчка с датой и календарем -->
+              <div class="id-dateline-wrapper">
+                <img width="20px" height="20px" class="eva_calendar-fill.png" src="./images/eva_calendar-fill.png" alt="./images/eva_calendar-fill.png" style="margin-top: 1px;">
+                <p class="popp-16">12/08/1934-29.06.2015</p>
+              </div>
+
+              <div class="id-line"></div>
+              <div class="grave-info-title">
+                <h2>Информация о захоронении</h2>
+              </div>
+              <div class="grave-info">
+                <div class="grave-info__line">
+                  <span class="mont-20-600">Номер захоронения</span><p class="popp-20">#66-КУ-044919</p></strong>
+                </div>
+                <div class="grave-info__line">
+                  <span class="mont-20-600">Тип</span><p class="popp-20">Захоронение в участке</p></strong>
+                </div>
+                <div class="grave-info__line">
+                  <span class="mont-20-600">Кладбище</span><p class="popp-20">Кенсай</p></strong>
+                </div>
+                <div class="grave-info__line">
+                  <span class="mont-20-600">Квартал</span><p class="popp-20">3</p></strong>
+                </div>
+                <div class="grave-info__line">
+                  <span class="mont-20-600">Участок</span><p class="popp-20">&66-КУ-035034</p></strong>
+                </div>
+                <div class="grave-info__line">
+                  <span class="mont-20-600">Координаты</span><p class="popp-20">56.35107309557659, 62.01158847670595
+                  </p></strong>
+                </div>
+
+              </div>
+
+              
+            </div>
+          </div>
+          
+          <!-- Секция Оказываемые услуги -->
+          <div class="services-table-wrapper">
+            <!-- Заголовок -->
+            <div class="services-table-wrapper__title">
+              <h3>Оказываемые услуги</h3>
+            </div>
+            <!-- Таблица -->
+            <table class="services-table" style="margin-bottom: 20px;">
+              <tr>
+                <th>Название</th>
+                <th>Вид</th>
+                <th>Сумма</th>
+              </tr>
+              <tr>
+                <td>Благоустройство</td>
+                <td>Уборка могилы</td>
+                <td>10 000тг.</td>
+              </tr>
+              <tr>
+                <td>Благоустройство</td>
+                <td>Посадка цветов</td>
+                <td>20 000тг.</td>
+              </tr>
+              <tr class="table-sum-row">
+                <td class="sum">Сумма</td>
+                <td class="total"></td>
+                <td class="total">30 000тг</td>
+
+              </tr>                              
+            </table>
+            <div class="table-btn-wrapper">
+              <button class="btn-more">Отменить заказ</button>
+            </div>
+
+
+          </div>
+
+
+          
+        </div>
+      </div>
+    </div>
+
+
+
+  </body>
+</html>

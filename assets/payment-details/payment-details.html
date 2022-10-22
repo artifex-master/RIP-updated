@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Links to custom CSS -->
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="../btn/btn.css">
+    <link rel="stylesheet" href="./payment-details.css">
+
+    
+    <!-- Link to Poppins Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to Montserrat Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">     
+
+    <!-- Document Title -->
+    <title>Форма с оплатой</title>
+  </head>
+  <body>
+    <div class="information">
+      <div class="information__container">
+        
+        <!-- Основной блок -->
+        <div class="payment-wrapper">
+          <!-- Заголовок "Данные по оплате" -->
+          <div class="payment-wrapper__title">
+            <h2>Данные по оплате</h2>
+          </div>
+
+          <!-- Описание -->
+          <div class="payment-wrapper__description">
+            <p class="popp-20">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec non convallis tellus.</p>
+          </div>
+
+          <!-- Блок с формой -->
+          <div class="payment-wrapper__form">
+            <form action="">
+              <div class="payment-wrapper__form-line">
+                <label for="payment-email">Адрес электронной почты</label>
+                <input id="payment-email" type="email" name="email" placeholder="email" />
+              </div>
+
+              <div class="payment-wrapper__form-line">
+                <label for="payment-email">Номер карты</label>
+                <input id="payment-email" type="email" name="email" placeholder="1234-5678-9012-3456" />
+              </div>
+
+              <div class="payment-wrapper__form-line">
+                <label for="payment-email">Имя держателя карты</label>
+                <input id="payment-email" type="email" name="email" placeholder="NAME SURNAME" />
+              </div>
+
+            </form>
+
+          </div>
+
+          <button class="btn btn-pay" disabled>Оплатить</button>
+
+
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

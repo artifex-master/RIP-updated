@@ -1,0 +1,195 @@
+  /* Заголовок */
+  .account-title-wrapper {
+    margin-bottom: 24px;
+  }
+
+  /* Навиг. панель */
+  .account-nav-wrapper ul {
+    display: flex;
+    gap: 26px;
+  }
+
+  /* Блок центр */
+  .account-wrapper {
+    display: flex;
+    gap: 20px;
+  }
+
+  /* Стили для календаря */
+  .account-wrapper__calendar {
+    width: 243px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+  } 
+
+  .calendar-month-wrapper {
+    width: 243px;
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+  }
+
+  .calendar-week-wrapper {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 152px;
+  }
+
+  .calendar-days-wrapper {
+    display: grid;
+    grid-template-columns: repeat(7, 1fr);
+  }
+
+  .calendar-days-wrapper li {
+    cursor: pointer;
+  }
+
+  .calendar-days-wrapper li.active {
+    width: 25px;
+    background: #224C4F;
+    color: var(--white-color);
+    border-radius: 50%;
+  }
+
+/* Стили для блога */
+.account-wrapper__event-wrapper {
+  margin-top: 100px;
+}  
+
+.event-wrapper {
+  background: var(--white-color);
+  border-radius: 16px;
+  display: flex;
+  gap: 20px;
+  box-shadow: 0px 2px 5px 0px #0000001A;
+  padding: 12px;
+
+}
+
+
+
+
+
+
+
+
+
+/* Адаптация */
+/* Мобильная адаптация (320px - 768px) */
+.account-nav-burger {
+  position: relative;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid var(--grey-light);
+  padding: 8px;
+  cursor: pointer;
+  transition: 0.12s ease;
+  position: fixed;
+  visibility: hidden;
+}
+
+.account-nav-burger__line {
+  width: 22px;
+  background: var(--black-color);
+  border: 2px solid black;
+}
+
+.account-nav-burger.active {
+  background: var(--main-color);
+}
+
+.account-nav-burger.active .account-nav-burger__line {
+  background: var(--white-color);
+  border: 1.5px solid var(--white-color);
+  transition: 0.32s ease;
+}
+
+.account-nav-burger.active .line-one { transform: translateY(8.5px) rotate(45deg); }
+.account-nav-burger.active .line-two { visibility: hidden; transition: 0.01s }
+.account-nav-burger.active .line-three { transform: translateY(-9px) rotate(-45deg); }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (min-width: 320px) {
+  .account-title-wrapper {
+    margin-bottom: 16px;
+  }
+
+  .account-nav-burger {
+    position: relative;
+    visibility: visible;
+  }
+
+  .account-nav-wrapper {
+    position: fixed;
+    visibility: hidden;
+    transform: translateY(60px);
+  }
+
+  .account-nav-wrapper ul {
+    display: block;
+  }
+
+  /* Вытянуть нав. панель при нажатии на кнопку бургера */
+  .account-nav-wrapper.active {
+    visibility: visible;
+    transition: 0.25s ease;
+
+  }
+
+}
+
+/* Для нав. панели при ширине в 600px и выше */
+@media only screen and (min-width: 600px) {
+  .account-nav-burger {
+    position: fixed;
+    visibility: hidden;
+  }
+
+  .account-nav-wrapper {
+    position: absolute;
+    visibility: visible;
+    transform: translateY(10px);
+    display: flex;
+    justify-content: left;
+  }  
+
+  .account-nav-wrapper ul {
+    display: flex;
+    gap: 12px;
+  }  
+
+  .account-nav-wrapper ul li a {
+    font-size: var(--fs-12);
+  }
+}
+
+@media only screen and (min-width: 900px) {
+  .account-nav-wrapper ul li a {
+    font-size: var(--fs-14);
+  }  
+}
+
+@media only screen and (min-width: 1024px) {
+  .account-nav-wrapper ul li a {
+    font-size: var(--fs-16);
+  }  
+}

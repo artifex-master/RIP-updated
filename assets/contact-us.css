@@ -1,0 +1,307 @@
+.contact-us-head {
+  width: 100%;
+  height: 268px;
+  background-image: url('../images/contact-us-img.png');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 268px;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
+.contact-us-head__title-wrapper {
+  width: 82%;
+  margin: 0 auto;
+}
+
+.contact-us-head__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 41px;
+  font-style: normal;
+  color: #FFF;
+
+  
+
+}
+
+/*************************************************************************************************
+  # Секция №2 "Заказать обратный звонок"
+**************************************************************************************************/
+.contact-us-request-callback {
+  width: 100%;
+  height: 230px;
+}
+
+.contact-us-request-callback__wrapper {
+  width: 100%;
+  height: 230px;
+
+  /** Centralize the content **/
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-request-callback__wrapper-center {
+  width: max-content;
+
+  display: flex;
+  flex-direction: column;
+  gap: 9px;
+}
+
+.contact-us-request-callback__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  text-align: center;
+  color: var(--main-color);
+}
+
+.contact-us-request-callback__info {
+  width: 70%;
+  margin: 0 auto;
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  text-align: center;
+  color: var(--main-color);
+
+}
+
+
+/*************************************************************************************************
+  # Секция №3 "Почта - Телефон"
+**************************************************************************************************/
+.contact-us-email-phone {
+  width: 100%;
+}
+
+.contact-us-email-phone__wrapper {
+  width: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-email-phone__wrapper-center {
+  display: flex;
+}
+
+.contact-us-email-phone__email {
+  width: 390px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-email-phone__email-icon {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 27px;
+}
+
+.contact-us-email-phone__email-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 41px;
+  color: var(--main-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-bottom: 14px;
+
+}
+
+.contact-us-email-phone__phone-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 41px;
+  color: var(--main-color);
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contact-us-email-phone__email-info {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #9C9C9C;
+
+  display: flex;
+  justify-content: center;  
+
+}
+
+.contact-us-email-phone__vertical-line {
+  height: 229px;
+  border: 4px solid var(--main-color);
+  border-radius: 8px;
+}
+
+.contact-us-email-phone__phone {
+  width: 390px;
+}
+
+.contact-us-email-phone__phone-inner-wrapper {
+  display: flex;
+  flex-direction: column;
+
+  position: relative;
+
+  top: 34px;
+  left: 0;
+}
+
+.contact-us-email-phone__phone-icon {
+  display: flex;
+  justify-content: center;
+
+  margin-bottom: 15px;
+}
+
+.contact-us-email-phone__phone-title {
+  margin-bottom: 16px;
+}
+
+.contact-us-email-phone__phone-num-wrapper {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #9C9C9C;
+  
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+
+}
+
+
+
+
+
+@media only screen and (max-width: 900px) {
+/*************************************************************************************************
+  # Секция №3 "Почта - Телефон"
+**************************************************************************************************/
+  .contact-us-email-phone__wrapper-center {
+    top: 59px;
+    position: relative;
+    flex-direction: column;
+  }
+
+  .contact-us-email-phone__email, .contact-us-email-phone__phone {
+    height: 221px;
+  }
+
+  .contact-us-email-phone__vertical-line {
+    width: 229px;
+    margin: 0 auto;
+    height: 0;
+  }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+  .contact-us-head {
+    background-image: url('../images/contact-us-imgx768.png');
+  }
+
+  .contact-us-head__title {
+    font-size: 38px;
+  }
+
+
+}
+
+@media only screen and (max-width: 600px) {
+  .contact-us-head {
+    background-image: url('../images/contact-us-img-mobile.png');
+  }
+
+  .contact-us-head__title {
+    font-size: 30px;
+  }
+
+  /** Request Callback section for Mobile **/
+  .contact-us-request-callback .container {
+    width: 100%;
+    margin: 0;
+  }
+
+  .contact-us-request-callback__wrapper {
+    width: 100%;
+    height: 230px;
+
+    
+    /** Centralize the content **/
+    display: flex;
+    justify-content: left;
+    align-items: center;
+  }
+
+  .contact-us-request-callback__wrapper-center {  
+    margin-left: 25px;
+  }
+
+
+
+  .contact-us-request-callback__title {
+    text-align: left;
+  }
+
+  .contact-us-request-callback__info {
+    width: 80%;
+    margin: 0;
+    text-align: left;
+  
+  }
+
+}
+
+@media only screen and (max-width: 411px) {
+  .contact-us-request-callback__info {
+    width: 90%;
+    margin: 0;
+    text-align: left;
+  
+  }
+
+}
+
+@media only screen and (max-width: 365px) {
+  .contact-us-request-callback__info {
+    width: 100%;
+    margin: 0;
+    text-align: left;
+  }
+
+}

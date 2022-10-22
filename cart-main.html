@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <!-- Meta tags -->
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <!-- Links to custom CSS -->
+    <link rel="stylesheet" href="./assets/style.css">
+    <link rel="stylesheet" href="./assets/btn/btn.css">
+    <link rel="stylesheet" href="./assets/cart-main.css">
+
+
+
+
+
+    <!-- Link to Poppins Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to Montserrat Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">     
+
+    <!-- Document Title -->
+    <title>Корзина</title>
+  </head>
+  <body>
+    <div class="information">
+      <div class="information__container">
+        
+        <div class="trash-main-wrapper">
+          <!-- Заголовок "Корзина" -->
+          <div class="trash-main-wrapper__title" style="width: 100%; background: #ccc;">
+            <h1>Корзина</h1>
+            <!-- Статусная линия -->
+            <div class="order-status-wrapper">
+              <div class="order-status-wrapper__num active">1</div>
+              <p class="popp-14 active">Информация</p>
+              <img class="order-status-wrapper__img" src="./images/order-status-wrapper__img.png" alt="./order-status-wrapper__img.png">
+              <div class="order-status-wrapper__num">2</div>
+              <p class="popp-14">Оплата</p> 
+              <img class="order-status-wrapper__img" src="./images/order-status-wrapper__img.png" alt="./order-status-wrapper__img.png">
+              <div class="order-status-wrapper__num">3</div>
+              <p class="popp-14">Завершение заказа</p>
+            </div>
+          </div>
+
+          <!-- Количество товаров в корзине -->
+          <p class="popp-16">Количество товаров в корзине: <span class="popp-16">4</span></p>
+
+          <!-- Основное содержание -->
+          <div class="cart-main-wrapper">
+            <!-- Левый блок -->
+            <div class="cart-main-wrapper__left">
+              
+              <!-- Основная обертка -->
+              <div class="cart-items-wrapper">
+                <div class="cart-item">
+                  <div class="cart-item-img-wrapper">
+                    <img class="./images/cart-item-img-wrapper__img.png" src="./images/cart-item-img-wrapper__img.png" alt="./images/cart-item-img-wrapper__img.png">
+                  </div>
+                  <!-- Содержание карточки -->
+                  <div class="cart-item-info-wrapper">
+                    <h3>Цифровой мемориал</h3>
+                    <p>Тариф: Оптимальный</p>
+                    <div class="cart-item-info-wrapper__line">
+                      <span class="popp-16-600">ФИО:</span><span class="popp-16">Фамилия Имя Отчество</span>
+                    </div>
+                    <div class="cart-item-price-wrapper">
+                      <span class="cart-item-price">80 000тг</span>
+                    </div>
+
+
+                  </div>
+
+
+                </div>
+
+                <div class="cart-item">
+                  <div class="cart-item-img-wrapper">
+                    <img class="./images/cart-item-img-wrapper__img.png" src="./images/cart-item-img-wrapper__img.png" alt="./images/cart-item-img-wrapper__img.png">
+                  </div>
+                  <!-- Содержание карточки -->
+                  <div class="cart-item-info-wrapper">
+                    <h3>Благоустройство</h3>
+                    <div class="cart-item-info-wrapper__line">
+                      <span class="popp-16-600">ФИО:</span><span class="popp-16">Фамилия Имя Отчество</span>
+                    </div>
+                    <div class="cart-item-info-wrapper__line">
+                      <span class="popp-16-600">Кладбище:</span><span class="popp-16">адрес кладбища</span>
+                    </div> 
+                    <div class="cart-item-info-wrapper__line">
+                      <span class="popp-16-600">Дата и время:</span><span class="popp-16">12.12.2022</span>
+                    </div>                       
+                    <div class="cart-item-price-wrapper">
+                      <span class="cart-item-price">20 000тг</span>
+                    </div>
+
+
+                  </div>
+
+
+                </div>
+                
+                <div class="cart-item">
+                  <div class="cart-item-img-wrapper">
+                    <img class="./images/cart-item-img-wrapper__img.png" src="./images/cart-item-img-wrapper__img.png" alt="./images/cart-item-img-wrapper__img.png">
+                  </div>
+                  <!-- Содержание карточки -->
+                  <div class="cart-item-info-wrapper">
+                    <h3>Тратуарная плитка</h3>
+                    <div class="cart-item-info-wrapper__line">
+                      <span class="popp-16-600">Кладбище:</span><span class="popp-16">адрес кладбища</span>
+                    </div> 
+                    <div class="cart-item-info-wrapper__line">
+                      <span class="popp-16-600">Дата и время:</span><span class="popp-16">12.12.2022</span>
+                    </div>                       
+                    <div class="cart-item-price-wrapper">
+                      <span class="cart-item-price">40 000тг</span>
+                    </div>
+
+
+                  </div>
+                </div>        
+              </div>
+
+              <!-- Блок теста "Дополнительно" -->
+              <div class="trash-main-wrapper__additional">
+                <h2>Дополнительно</h2>
+                <p class="popp-20">Заказы данной категории оплачиваются после предварительного разговора с консультанотом. Вы можете заказать обратный звонок или же связаться с нами сами. Наши котонтактные данные: +7 (707) 909 90 90 </p>
+              </div>  
+              <p class="popp-20-600">Заказать обратный звонок</p>            
+
+
+            </div>
+
+            <!-- Правый блок -->
+            <div class="cart-main-wrapper__right">
+              <!-- Обертка -->
+              <div class="total-wrapper">
+                <!-- Заголовок -->
+                <div class="total-wrapper__header">
+                  <p class="mont-24-600">Итого:</p>
+                  <span class="cart-total">140 000тг.</span>
+                </div>
+
+                <!-- Основное содержимое -->
+                <div class="total-wrapper__main">
+                  <div class="total-wrapper__main-line">
+                    <span class="total-title">Цифровой мемориал</span>
+                    <span class="total-price">80 000тг.</span>
+                  </div>
+                  <div class="total-wrapper__main-line">
+                    <span class="total-title">Благоустройство</span>
+                    <span class="total-price">20 000тг.</span>
+                  </div>
+                  <div class="total-wrapper__main-line">
+                    <span class="total-title">Тратуарная плитка</span>
+                    <span class="total-price">40 000тг.</span>
+                  </div>            
+
+
+                </div>
+
+                <!-- Кнопка -->
+                <div class="total-wrapper_btn">
+                  <button class="btn">Оплатить</button>
+                </div>
+
+
+              </div>
+            </div>
+
+          </div>
+          
+        </div>
+
+      </div>
+    </div>
+  </body>
+</html>

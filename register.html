@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="./assets/register.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+
+    <!-- Link Checkbox Styles -->
+    <link rel="stylesheet" href="./assets/chbox/chbox.css">
+    <link rel="stylesheet" href="./assets/btn/btn.css">
+
+
+    <!-- Link to Poppins Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+    <!-- Link to Montserrat Google Fonts (fw: 400 / 600) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&display=swap" rel="stylesheet">     
+
+
+    <title>Регистрация</title>
+  </head>
+  <body>
+    <div class="login-main-wrapper">
+      <!-- Левый блок -->
+      <div class="login-main-wrapper__left">
+        <!-- Обертка для заголовка -->
+        <div class="login-header-wrapper">
+          <!-- Обертка для лого -->
+          <div class="login-header-wrapper__logo">
+            <a href="#"><img class="login-header-wrapper__logo-img" src="./images/login-header-wrapper__logo.png" alt="./images/login-header-wrapper__logo.png"></a>
+          </div>
+          <!-- Обертка для ссылки "вернуться на главную" -->
+          <div class="login-header-wrapper__go-back">
+            <a href="#"><p class="mont-12">Вернуться на главную</p></a>
+          </div>
+        </div>
+
+        <!-- Обертка для формы -->
+        <div class="login-form-wrapper">
+          <form action="" class="login-form">
+            <div class="login-form__title">
+              <h1>Добро пожаловать</h1>
+            </div>
+            <div class="login-form__subtitle" style="margin-bottom: 12px;">
+              <p class="popp-14">Пожалуйста, введите свои данные</p>
+            </div>
+            <div class="login-wrapper">
+              <label for="login-name" class="login-label popp-14-600">Имя</label>
+              <input class="login-input" type="text" id="login-name" placeholder="Имя" />
+            </div>            
+            <div class="login-wrapper">
+              <label for="login-address" class="login-label popp-14-600">Адрес электронной почты</label>
+              <input class="login-input" type="email" id="login-address" placeholder="email" />
+            </div>
+            <div class="login-wrapper">
+              <label for="login-tel" class="login-label popp-14-600">Номер телефона</label>
+              <input class="login-input" type="tel" id="login-tel" placeholder="+7(777) 777-77-77" />
+            </div> 
+            <div class="login-wrapper">
+              <label for="login-password" class="login-label popp-14-600">Пароль</label>
+              <input class="login-input" type="password" id="login-password" placeholder="Пароль" />
+            </div>             
+            
+            
+            <div class="login-remember-forgot-wrapper" style="margin-bottom: 24px;">
+              <div class="login-remember-wrapper">
+                <label class="chbox-wrapper remember-me-wrapper" for="remember-chbox">Запомнить меня
+                  <input type="checkbox" id="remember-chbox" name="remember-chbox" checked="checked" />
+                  <span class="checkmark"></span>
+                </label>
+              </div>
+
+              <div class="login-forgot-wrapper">
+                <a href="#"><p class="popp-14-600">Забыли пароль?</p></a>
+              </div>              
+            </div>
+
+            <div class="login-btn-wrapper" style="margin-bottom: 12px;">
+              <button class="btn btn-login">Войти</button>
+            </div>
+
+            <div class="login-btn-subtitle">
+              <a href="#"><p class="popp-14">Вперые у нас?</p></a>
+              <a href="#"><p class="popp-14">Зарегестрируйтесь</p></a>
+            </div>
+            
+          </form>
+        </div>
+      </div>
+
+      <!-- Правый блок -->
+      <div class="login-main-wrapper__right" >
+          <img class="login-main-wrapper__right-img" src="./images/login-main-wrapper__right-img.png" alt="./images/login-main-wrapper__right-img.png">
+
+      </div>
+
+    </div>
+  </body>
+
+</html>

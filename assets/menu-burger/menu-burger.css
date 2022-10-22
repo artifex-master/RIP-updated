@@ -1,0 +1,31 @@
+.account-nav-burger {
+  position: relative;
+  float: right;
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  border: 1px solid var(--grey-light);
+  padding: 5px;
+  cursor: pointer;
+  transition: 0.12s ease;
+}
+
+.account-nav-burger__line {
+  width: 22px;
+  background: var(--black-color);
+  border: 1.5px solid black;
+}
+
+.account-nav-burger.active {
+  background: var(--main-color);
+}
+
+.account-nav-burger.active .account-nav-burger__line {
+  background: var(--white-color);
+  border: 1.5px solid var(--white-color);
+  transition: 0.32s ease;
+}
+
+.account-nav-burger.active .line-one { transform: translateY(8.5px) rotate(45deg); }
+.account-nav-burger.active .line-two { visibility: hidden; transition: 0.01s }
+.account-nav-burger.active .line-three { transform: translateY(-9px) rotate(-45deg); }
