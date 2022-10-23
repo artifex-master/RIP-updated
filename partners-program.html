@@ -123,14 +123,107 @@
               <img class="partners-program-the-conditions__img" src="./images/partners-program-the-conditions__img.png" alt="./images/partners-program-the-conditions__img.png" />
               <img class="partners-program-the-conditions__img-mobile" src="./images/partners-program-the-conditions__img-mobile.png" alt="./images/partners-program-the-conditions__img-mobile.png" />
             </div>            
-
-
           </div>
+      </div>
+    </div>
+  </section>
+
+  <!--------------------------------------------------------------------------------------------
+    # Секция №3 "Нам доверяют"
+  ---------------------------------------------------------------------------------------------->
+  <section class="partners-program-we-are-trusted">
+    <div class="container">
+      <div class="partners-program-we-are-trusted__wrapper">
+        <!-- Заголовок -->
+        <div class="partners-program-we-are-trusted__title">
+          <span>Нам доверяют</span>
+        </div>
+
+        <!-- Слайдер -->
+        <div class="partners-program-we-are-trusted__slide-wrapper">
+          <div class="partners-program-we-are-trusted__slide">
+            <img class="partners-program-we-are-trusted__img" style="width: 100%;" src="./images/partners-program-we-are-trusted__img.png" alt="./images/partners-program-we-are-trusted__img.png" />
+          </div>
+
+          <div class="partners-program-we-are-trusted__slide">
+            <img class="partners-program-we-are-trusted__img" style="width: 100%;" src="./images/partners-program-we-are-trusted__img.png" alt="./images/partners-program-we-are-trusted__img.png" />
+          </div>
+
+          <!-- След./Предыд. кнопки -->
+          <a class="prev" onClick="plusSlides(-1)"><img class="prev-icon" src="./icons/chevron-left.png" alt="./icons/chevron-left.png" /></a>
+          <a class="next" onClick="plusSlides(1)"><img class="next-icon" src="./icons/chevron-right.png" alt="./icons/chevron-right.png" /></a>
+
+        </div>
+        <!-- Точки -->
+        <div style="width: 100%; background: #FFF; text-align: center;">
+          <span class="dot" onClick="currentSlide(1)"></span>
+          <span class="dot" onClick="currentSlide(2)"></span>
+          <span class="dot" onClick="currentSlide(3)"></span>
+        </div>
 
 
       </div>
     </div>
   </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  <!-- Custom JavaScript -->
+  <script>
+
+    // Slideshow
+    let slideIndex = 1;
+    showSlides(slideIndex);
+
+    function plusSlides(n) {
+      showSlides(slideIndex += n);
+    }
+
+    function currentSlide(n) {
+      showSlides(slideIndex = n);
+    }
+
+    function showSlides(n) {
+      let i;
+      let slides = document.getElementsByClassName("partners-program-we-are-trusted__slide");
+      let dots = document.getElementsByClassName("dot");
+      if (n > slides.length) {slideIndex = 1}    
+      if (n < 1) {slideIndex = slides.length}
+      for (i = 0; i < slides.length; i++) {
+        slides[i].style.display = "none";  
+      }
+      for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+      }
+      slides[slideIndex-1].style.display = "block";  
+      dots[slideIndex-1].className += " active";
+    }
+  </script>
+
+
 
 
 </body>
