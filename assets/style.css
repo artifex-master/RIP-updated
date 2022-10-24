@@ -118,10 +118,7 @@ h3 { font-family: var(--mont-ff); font-size: (--fs-24); color: var(--main-color)
 
 
 /* REUSED */
-.container {
-  width: 80%;
-  margin: 0 auto;
-}
+.container { width: 80%; margin: 0 auto; }
 
 .information {
   padding: 20px;

@@ -1,0 +1,265 @@
+/***********************************************************************************
+      # CAREER
+  ************************************************************************************/
+  .career-head {
+    width: 100%;
+    background-image: url('../images/career-banner.png');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: 100% 100vh;
+  }
+
+.career-head__wrapper {
+  width: 100%;
+  height: 100vh;
+
+  padding-top: 144px;
+  padding-left: 132px;
+  padding-right: 439px;
+
+}
+
+.career-head__wrapper-center {
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+
+.career-head__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 40px;
+  font-weight: 600;
+  line-height: 41px;
+  color: #FFF;
+
+}
+
+.career-head__info {
+
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #E9EDED;
+}
+
+
+  
+  /* .career-banner {
+    width: 100%;
+    height: 100vh;
+
+    position: absolute;
+  }
+
+
+  .career-banner-title {
+    padding-bottom: 40px;
+  }
+
+  .career-banner-desc {
+    padding-bottom: 40px;
+  } */
+
+
+  /***********************************************************************************
+          # CARRER PAGE ##### WHY ITS WORTH WORKING WITH US?
+  ************************************************************************************/
+  .why_its_worth_working_w_us .container {
+    width: 480px;
+    margin: 0 auto;
+
+    padding: 60px 0;
+  }
+
+  .why_its_worth_working_w_us-title {
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+
+  .why_its_worth_working_w_us-title .h2-green {
+    font-size: 25px;
+  }
+
+  .why_its_worth_working_w_us-desc {
+    text-align: center;
+  }
+
+  .why_its_worth_working_w_us-desc .p-green {
+    font-size: 18px;
+  }
+
+
+
+
+  /***********************************************************************************
+      # VACANCY CARD
+  ************************************************************************************/
+  .vacancies-cards .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+
+  .vacancies-cards-title .h2-green {
+    font-size: var(--fs-25);
+    text-align: center;
+  }
+
+  .vacancies-cards-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+  }
+
+  .vacancies-cards-title {
+    padding-bottom: 40px;
+  }
+
+  .vacancy-card {
+    background: var(--white-plain);
+    width: 376px;
+    height: 196px;
+
+    padding: 20px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
+
+  .vacancy-card-title .h2-24 {
+    font-size: 20px;
+    padding-bottom: 100px;
+  }
+
+  .vacancy-card-arrow {
+    float: right;
+  }
+
+
+
+  /***********************************************************************************
+      # FORM SECTION
+  ************************************************************************************/
+  .form-section {
+    background: #E9EDED;
+  }
+  
+  .form-section .container {
+    width: 480px;
+    margin: 0 auto;
+
+    padding: 60px 0;
+  }
+
+  .leave-feedback-title {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .leave-feedback-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+  .leave-feedback-desc {
+    text-align: center;
+    padding-bottom: 60px;
+
+  }
+
+  .leave-feedback-desc .p-green {
+    font-size: 18px;
+  }
+
+  .v-feedback-form-input {
+    background: var(--white-plain);
+    width: 440px;
+    height: 62px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    border: 0;
+    padding: 12px;
+    color: var(--black-plain);
+  }
+
+  .message {
+    height: 180px;
+  }
+
+  .v-feedback-form-row-1 {
+    display: grid;
+    gap: 15px;
+
+    padding-bottom: 15px;
+  }
+
+  .v-feedback-form-row-2 {
+    display: grid;
+    gap: 15px;
+  }
+
+  .cv {
+    margin-bottom: 10px;
+  }
+
+  .feedback-form-row-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+
+
+/***********************************************************************************
+  # Адаптивный дизайн
+************************************************************************************/
+@media only screen and (max-width: 1280px) {
+  .career-head__wrapper {
+    padding-top: 114px;
+    padding-left: 0;
+    padding-right: 359px;
+  }
+
+
+}
+
+@media only screen and (max-width: 1024px) {
+  .career-head__wrapper {
+    padding-top: 114px;
+    padding-left: 42px;
+    padding-right: 160px;
+  }
+
+
+}
+
+@media only screen and (max-width: 900px) {
+  .career-head {
+    background-image: url('../images/career-banner-mobile.png');
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .career-head .container {
+    width: 100%;
+  }
+
+  .career-head__wrapper { 
+    padding-top: 45px;
+    padding-left: 32px;
+    padding-right: 36px;
+  }
+
+  .career-head__wrapper-center {
+    gap: 14px;
+  }
+
+  .career-head__title {
+    font-size: 30px; 
+  }
+
+}
