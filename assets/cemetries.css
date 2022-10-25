@@ -1,0 +1,3495 @@
+:root {
+  /*************************************************************************************
+    # CUSTOM CSS
+  **************************************************************************************/
+  --white-plain: #ffffff;
+  --white-f5: #F5F5F5;
+  --black-plain: #000000;
+  --main-green: #224C4F;
+  --green-2: #192E33;
+  --green-3: #81BC5D;
+  --grey-7: #E9EDED;
+  --green-5: #6A9194;
+  --grey-1: #9C9C9C;
+  --grey-2: #DADADA;
+  --grey-3: #F3F3F3;
+  --grey-4: #FAFAFA;
+  --grey-5: #AEAEAE;
+  --grey-6: #F2F2F2;
+  --blue-1: #56B9F2;
+  --blue-2: #116ACC;
+  --blue-3: #1877F2;
+  --blue-4: #E7F0FA;
+  --lavand-plain: #E9EDED;
+  --btn-lavand: #92A6A8;
+  --red-main: #EA383A;
+
+  /*************************************************************************************
+    # TYPOGRAPHY
+  **************************************************************************************/
+  --ff-mont: 'Montserrat', sans-serif;
+  --ff-poppins: 'Poppins', sans-serif;
+
+  --fs-40: 40px;
+  --fs-38: 38px;
+  --fs-36: 36px;
+  --fs-35: 35px;
+  --fs-32: 32px;
+  --fs-30: 30px;
+  --fs-28: 28px;
+  --fs-25: 25px;
+  --fs-24: 24px;
+  --fs-23: 23px;
+  --fs-20: 20px;
+  --fs-16: 16px;
+  --fs-14: 14px;
+  --fs-13: 13px;
+  --fs-12: 12px;
+  --fs-10: 10px;
+
+  --fw-400: 400;
+  --fw-600: 600;
+}
+
+
+/*************************************************************************************
+    # REUSED
+**************************************************************************************/
+.btn-primary {
+  background: var(--main-green);
+  font-family: var(--ff-mont);
+  font-weight: var(--fw-400);
+  color: var(--white-plain);
+  padding: 12px;
+  border-radius: 10px;
+}
+
+.btn-transparent {
+  background: transparent;
+  border: 1px solid var(--white-plain);
+  color: var(--white-plain);
+  padding: 15px 12px;
+  font-family: var(--ff-mont);
+  font-weight: var(--fw-400);
+  border-radius: 10px;
+}
+
+.btn-invisible {
+  font-family: var(--ff-mont);
+  background: transparent;
+  border: transparent;
+  color: var(--main-green);
+}
+
+.btn-primary-bold {
+  background: var(--main-green);
+  font-family: var(--ff-mont);
+  font-weight: var(--fw-600);
+  color: var(--white-plain);
+}
+
+.btn-grey-2 {
+  background: var(--grey-2);
+  font-family: var(--ff-mont);
+  font-weight: var(--fw-400);
+  color: var(--grey-5);
+
+  padding: 12px;
+  color: var(--main-green);
+  border-radius: 10px;
+}
+
+.btn-lavand {
+  background: var(--lavand-plain);
+  color: var(--btn-lavand);
+  font-weight: var(--fw-400);
+  font-family: var(--ff-mont);
+}
+
+.btn-learn-more {
+  display: flex;
+  place-items: center;
+  width: 140px;
+  justify-content: space-between;
+  margin: 0;
+  padding: 0;
+  background: transparent;
+  font-family: var(--ff-poppins);
+  font-size: var(--fs-20);
+  line-height: 30px;
+  font-weight: var(--fw-400);
+  color: var(--main-green);
+
+}
+
+h2 {
+  font-family: var(--ff-mont);
+  color: var(--main-green);
+  font-weight: var(--fw-400);
+
+}
+
+#arrow-right {
+  width: 21px;
+  height: 13.5px;
+}
+
+
+body {
+  background: var(--white-f5);
+}
+
+header {
+  background: var(--grey-6);
+  box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.container {
+  padding: 25px 0;
+}
+
+
+.fa {
+  width: 20px;
+  height: 20px;
+  font-size: 10px;
+  background: var(--grey-2);
+  opacity: 0.8;
+  border-radius: 2px;
+  text-align: center;
+  padding-top: 2px;
+
+  margin: 20px 0;
+
+}
+
+.fa-instagram { color: var(--main-green); }
+.fa-facebook { color: var(--main-green); }
+
+.copy { font-family: var(--ff-poppins); font-size: var(--fs-16); color: var(--grey-2); }
+
+
+@media only screen and (min-width: 320px) {
+  .vacancy-block-1 .container {
+    width: 100%;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .why_to_choose_rip_card {
+    background: #FFF;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    padding-top: 27px;
+    padding-left: 26px;
+    padding-bottom: 24px;
+    padding-right: 24px;
+
+    margin-bottom: 41px;
+  }
+
+  .vacancy-rip-logo {
+    margin-bottom: 22px;
+  }
+
+  .vacancy-rip-title {
+    margin-bottom: 10px;
+  }
+
+  .job-title h1{
+    font-size: 30px;
+    margin-bottom: 39px;
+  }
+
+  .job-desc {
+    margin-bottom: 41px;
+  }
+
+  .who_we_are_looking-title {
+    margin-bottom: 15px;
+  }
+
+  .vacancy-block-2 {
+    background: #E9EDED;
+  }
+
+  .vacancy-block-2 .container {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 45px;
+  }
+
+  .functionality-title {
+    margin-bottom: 15px;
+  }
+
+  .vacancy-block-3 .container {
+    width: 100%;
+    padding-top: 41px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-bottom: 32px;
+  }
+
+  .result-title {
+    margin-bottom: 32px;
+  }
+
+  .result-desc {
+    width: 100%;
+    border: 1px solid var(--main-green);
+    border-radius: 16px;
+    padding-top: 29px;
+    padding-left: 18px;
+    padding-right: 18px;
+    padding-bottom: 29px;
+
+    margin-bottom: 101px;
+  }
+
+  .requirements-div {
+    margin-bottom: 15px;
+  }
+
+  .requirements-txt {
+    margin-bottom: 15px;
+  }
+
+  .conditions-div {
+    margin-bottom: 15px;
+  }
+
+  .conditions-txt {
+    margin-bottom: 15px;
+  }
+
+  .btn-vacancy-request {
+    width: 100%;
+  }
+
+  .btn-vacancy-request button {
+    width: 100%;
+  }
+
+
+
+}
+
+
+
+@media only screen and (min-width: 576px) {
+      /***********************************************************************************
+          # HEADER
+      ************************************************************************************/
+      header .container {
+        width: 470px;
+        margin: 0 auto;
+
+        display: flex;
+      }
+      
+      nav {
+        font-family: var(--ff-mont);
+        font-size: var(--fs-13);
+        font-weight: var(--fw-400);
+        line-height: 20px;
+        color: #181716;
+
+        position: fixed;
+        visibility: hidden;
+
+      }
+
+      .menu-burger {
+        margin-left: 360px;
+        visibility: visible;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        gap: 6px;
+      }
+
+      .line {
+        height: 2px;
+        width: 25px;
+        background: black;
+      }
+
+      .btn-group {
+        position: fixed;
+        background: transparent;
+        visibility: hidden;
+      }
+
+
+      /***********************************************************************************
+          # MAIN
+      ************************************************************************************/
+      main .container {
+        width: 100%;
+        margin: 0 auto;
+
+        padding-top: 30px;
+        padding-left: 31px;
+        padding-right: 31px;
+        padding-bottom: 45px;
+
+      }
+      
+      .cem-title {
+        font-family: var(--ff-mont);
+        font-size: var(--fs-20);
+        font-weight: var(--fw-600);
+        line-height: 41px;
+        color: var(--main-green);   
+        
+        margin-bottom: 16px;
+      }
+
+      .search-btn {
+        margin-right: 20px;
+        margin-bottom: 20px;
+      }
+
+    /***********************************************************************************
+          # SEARCH FORM
+    ************************************************************************************/
+      .search-form {
+        width: 470px;
+        height: 60px;
+        background: white;
+        box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+        border-radius: 16px;
+
+        display: flex;
+        margin-bottom: 25px;
+
+      }
+
+      #search-icon {
+        width: 20px;
+        height: 20px;
+        margin: 20px;
+      }
+
+      input[type=search] {
+        width: 80%;
+        font-size: var(--fs-20);
+        color: var(--grey-1);
+        border: 0 transparent;
+      }
+
+
+      /***********************************************************************************
+          # CHOOSE CITY
+      ************************************************************************************/
+      .choose-city-div {
+        display: flex;
+      }
+      
+      .cem-h2 {
+        font-family: var(--ff-mont);
+        font-size: var(--fs-24);
+        font-weight: var(--fw-600);
+        line-height: 38px;
+        color: var(--main-green);    
+      }
+
+      .choose-city-nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        padding-top: 2px;
+        padding-left: 10px;
+      }
+
+      .city {
+        font-family: var(--ff-poppins);
+        font-size: var(--fs-16);
+        font-weight: var(--fw-400);
+        line-height: 30px;
+        color: var(--main-green);  
+        
+        margin-right: 10px;
+      }
+
+      #arrow-down {
+        width: 16px;
+        height: 10px;
+      }
+
+    /***********************************************************************************
+          # CEMETRY CARD footer container
+    ************************************************************************************/
+    .cemetry-section .container {
+      display: grid;
+      gap: 20px;
+    }
+
+    .cemetry-card {
+      width: 430px;
+      margin: 0 auto;
+
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 16px;
+    }
+
+    .cemetry-map {
+      margin-bottom: 20px;
+    }
+
+    .map {
+      width: 430px;
+      height: 180px;
+    }
+
+    .cemetry-content {
+      padding: 20px;
+    }
+
+    .cemetry-title {
+      font-family: var(--ff-mont);
+      font-size: 24px;
+      font-weight: 600;
+      line-height: 30px;
+      letter-spacing: 0px;
+      color: var(--main-green);
+
+      margin-bottom: 10px;
+
+    }
+
+    .address-div {
+      display: flex;
+
+      margin-bottom: 10px;
+    }
+
+    .pointer {
+      width: 17px;
+      height: 21px;
+      margin-right: 10px;
+    }
+
+    .address {
+      font-family: var(--ff-poppins);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: var(--grey-2);
+    }
+
+    .cemetry-block {
+      display: grid;
+      grid-template-columns: repeat(2, 1fr);
+      gap: 20px;
+    }
+
+    .cemetry-label {
+      font-family: var(--ff-poppins);
+      font-size: 16px;
+      font-weight: 600;
+      line-height: 24px;
+      letter-spacing: 0em;
+      color: var(--main-green);
+
+    }
+
+    .cemetry-txt {
+      font-family: var(--ff-poppins);
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 24px;
+      letter-spacing: 0px;
+      color: var(--main-green);
+
+      
+
+    }
+
+
+    /***********************************************************************************
+          # FOOTER
+    ************************************************************************************/
+    footer {
+      background: var(--main-green);
+    }
+
+    footer .container {
+      width: 470px;
+      margin: 0 auto;
+    }
+
+    .footer-row {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .footer-row-txt {
+      font-family: var(--ff-mont);
+      color: var(--grey-2);
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 24px
+    }
+
+    .social-media { display: flex; margin: 10px 0;}
+    .social-media li { margin-right: 10px; }
+
+    .copy { margin-top: 10px; }
+
+
+
+    /***********************************************************************************
+          # BURIAL-PAGE
+    ************************************************************************************/    
+  .date-address {
+    margin-bottom: 20px;
+  }
+
+  .date-line {
+    display: flex;
+  }
+
+  .address-line {
+    display: flex;
+  }
+
+  .burial-date-txt, .burial-address-txt {
+    font-family: var(--ff-poppins);
+    font-size: var(--fs-16);
+    font-weight: var(--fw-400);
+    line-height: 24px;
+    color: var(--grey-2);
+    margin: 0 0 5px 10px;
+  }
+
+  .pointer {
+    margin-right: 0;
+  }
+  
+  .btn-learn-more {
+    width: 120px;
+    height: 50px;
+    background: #E9EDED;
+    float: right;
+    border-radius: 10px;
+    padding: 12px;
+
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+
+    margin-bottom: 20px;
+  }
+
+
+
+    /***********************************************************************************
+        # CONTACTS
+  ************************************************************************************/
+  main .container {
+    width: 470px;
+    margin: 0 auto;
+
+    position: relative;
+
+  }
+
+  .contacts-banner-section {
+    height: 280px;
+  }
+
+  .contact-img {
+    position: absolute;
+  }
+
+  .contact-banner {
+    padding-top: 80px;
+  }
+
+
+    /****** ORDER CALL BACK SECTION **************/
+    .order-callback-section {
+      padding: 20px 0;
+    }
+    
+    .order-callback-title {
+      text-align: center;
+    }
+  
+    .order-callback-desc {
+      text-align: center;
+      padding: 20px 60px;
+    }
+  
+    .contacts-hor-line {
+      position: fixed;
+      visibility: hidden;
+    }
+  
+   
+  
+    #cont-email-icon-icon {
+      width: 55px;
+      height: 40px;   
+  
+    }
+  
+    #cont-phone-icon-icon {
+      width: 45px;
+      height: 45px; 
+  
+  
+    }
+  
+    .contacts-email-block, .contacts-tel-phone {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      padding: 20px 120px;
+    }
+  
+    .cont-email-block-title, .cont-phone-title {
+      margin: 20px 0 5px 0;
+    }
+
+
+
+
+  /***********************************************************************************
+      # MAIN-2-HEAD
+  ************************************************************************************/
+  .head {
+    height: 576px;
+  }
+  
+  .main-2-img-banner {
+    position: absolute;
+  }
+
+  .head .container {
+    width: 480px;
+    margin: 0 auto;
+
+    position: relative;
+
+
+  }
+
+  .main-2-head-title {
+    margin-top: 50px;
+
+  }
+
+  .main-2-head-desc {
+    padding: 20px 60px 40px 0;
+    font-size: 18px;
+  }
+
+
+
+  /***********************************************************************************
+      # SECTION-2
+  ************************************************************************************/
+  .section-2 .container {
+    width: 480px;
+    margin: 0 auto;
+
+  }
+
+  .section-2-title, .section-2-desc {
+    text-align: center;
+  }
+
+  .section-2-title .title {
+    font-size: var(--fs-25);
+    margin-bottom: 20px;
+  }
+
+
+  .section-2-desc .desc{
+    font-size: 18px;
+
+  }
+
+
+    /***********************************************************************************
+      # MAIN-2-CARD
+  ************************************************************************************/
+  .cond-card-section .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+
+  .cond-card-section .condition-card {
+    
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
+
+  .cond-card-content {
+    padding: 20px 20px;
+  }
+  .cond-card-title {
+    padding: 20px 0;
+  }
+
+  .cond-card-txt {
+    padding-bottom: 20px;
+  }
+
+
+  /***********************************************************************************
+      # CAREER
+  ************************************************************************************/
+  .career-banner {
+    position: absolute;
+  }
+
+  .career-head .container {
+    position: relative;
+    height: 576px;
+
+    padding: 120px 0 0 0;
+  }
+
+  .career-banner-title {
+    padding-bottom: 40px;
+  }
+
+  .career-banner-desc {
+    padding-bottom: 40px;
+  }
+
+
+  /***********************************************************************************
+          # CARRER PAGE ##### WHY ITS WORTH WORKING WITH US?
+  ************************************************************************************/
+  .why_its_worth_working_w_us .container {
+    width: 480px;
+    margin: 0 auto;
+
+    padding: 60px 0;
+  }
+
+  .why_its_worth_working_w_us-title {
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+
+  .why_its_worth_working_w_us-title .h2-green {
+    font-size: 25px;
+  }
+
+  .why_its_worth_working_w_us-desc {
+    text-align: center;
+  }
+
+  .why_its_worth_working_w_us-desc .p-green {
+    font-size: 18px;
+  }
+
+
+
+
+  /***********************************************************************************
+      # VACANCY CARD
+  ************************************************************************************/
+  .vacancies-cards .container {
+    width: 480px;
+    margin: 0 auto;
+  }
+
+  .vacancies-cards-title .h2-green {
+    font-size: var(--fs-25);
+    text-align: center;
+  }
+
+  .vacancies-cards-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+  }
+
+  .vacancies-cards-title {
+    padding-bottom: 40px;
+  }
+
+  .vacancy-card {
+    background: var(--white-plain);
+    width: 376px;
+    height: 196px;
+
+    padding: 20px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
+
+  .vacancy-card-title .h2-24 {
+    font-size: 20px;
+    padding-bottom: 100px;
+  }
+
+  .vacancy-card-arrow {
+    float: right;
+  }
+
+
+
+  /***********************************************************************************
+      # FORM SECTION
+  ************************************************************************************/
+  .form-section {
+    background: #E9EDED;
+  }
+  
+  .form-section .container {
+    width: 480px;
+    margin: 0 auto;
+
+    padding: 60px 0;
+  }
+
+  .leave-feedback-title {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .leave-feedback-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+  .leave-feedback-desc {
+    text-align: center;
+    padding-bottom: 60px;
+
+  }
+
+  .leave-feedback-desc .p-green {
+    font-size: 18px;
+  }
+
+  .v-feedback-form-input {
+    background: var(--white-plain);
+    width: 440px;
+    height: 62px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    border: 0;
+    padding: 12px;
+    color: var(--black-plain);
+  }
+
+  .message {
+    height: 180px;
+  }
+
+  .v-feedback-form-row-1 {
+    display: grid;
+    gap: 15px;
+
+    padding-bottom: 15px;
+  }
+
+  .v-feedback-form-row-2 {
+    display: grid;
+    gap: 15px;
+  }
+
+  .cv {
+    margin-bottom: 10px;
+  }
+
+  .feedback-form-row-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  /***********************************************************************************
+      # VACANCY PAGE
+  ************************************************************************************/  
+  .vacancy-block-1 .container {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 45px;
+
+  }
+
+  .why_to_choose_rip_card {
+    background: var(--white-plain);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+
+    padding: 25px;
+  }
+
+  .vacancy-rip-logo {
+    padding-bottom: 20px;
+  }
+
+  .vacancy-rip-title {
+    padding-right: 80px;
+    padding-bottom: 20px;
+  }
+
+  .job-title {
+    padding-bottom: 20px;
+  }
+
+  .job-title h1 {
+    font-size: var(--fs-30);
+  }
+
+  .job-desc {
+    padding-bottom: 20px;
+  }
+
+  .job-desc .p-green {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .who_we_are_looking-title {
+    padding-bottom: 20px;
+  }
+
+  .who_we_are_looking-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+  .who_we_are_looking-desc .p-green {
+    font-size: 15px;
+    line-height: 25px;
+
+  }
+
+  /********************** BLOCK-2 *******************************************/
+  .vacancy-block-2 {
+    background: var(--grey-7);
+    padding: 20px;
+  }
+
+  .functionality-title {
+    padding-bottom: 20px;
+  }
+
+  .functionality-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+  .func-txt-1 {
+    padding-bottom: 20px;
+  }
+
+  .func-txt-1 .p-green {
+    font-size: var(--fs-18);
+    line-height: 25px;
+  }
+
+  .func-ol {
+    padding-bottom: 20px;
+  }
+
+  .func-ol .p-green {
+    font-size: var(--fs-18);
+    line-height: 25px;
+  }
+
+  .func-txt-2 .p-green {
+    font-size: var(--fs-18);
+    line-height: 25px;
+
+  }
+
+
+  .vacancy-block-3 .container {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 45px;
+  }
+
+  .vacancy-block-3 .vacancy-block-3-title {
+    font-size: var(--fs-25);
+  }
+
+  .vacancy-block-3 .vacancy-block-3-txt {
+    font-size: var(--fs-18);
+  }
+
+  .result-desc {
+    padding: 25px;
+    border: 1px solid #224C4F;
+    border-radius: 16px;
+  }
+
+
+  /***********************************************************************************
+      # RITUAL SERVICES PAGE
+  ************************************************************************************/  
+  .ritual-services-title-title h1 {
+    font-size: var(--fs-30);
+  }
+
+  .ritual-services-title-title {
+    padding-bottom: 5px;
+  }
+
+  .ritual-services-title-subt {
+    display: flex;
+  }
+
+  .ritual-services-title-subt .p-green-16 {
+    font-size: 14px;
+  }
+
+  .rs-arrow-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 12px;
+  }
+
+  .memorial-service .container {
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .memorial-service-title {
+    padding-bottom: 5px;
+  }
+
+  .memorial-service-img {
+    display: flex;
+
+  }
+
+  .rating-star {
+    width: 17px;
+    height: 16px;
+
+    margin-right: 5px;
+  }
+
+
+
+
+  .memorial-service-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+  .memorial-service-title-img {
+    padding-bottom: 40px;
+    
+  }
+
+  .memorial-service-order-img {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  #ms-img {
+    border-radius: 16px;
+  }
+
+  .memorial-service-order-desc .p-green {
+    font-size: var(--fs-18);
+    line-height: 25px;
+  }
+
+  .memorial-service-order-desc {
+    padding-bottom: 20px;
+  }
+
+  .tenge-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 14px;
+  }
+
+  .tenge-img {
+    width: 16px;
+    height: 18px;
+  }
+
+  .memorial-under-order {
+    display: flex;
+
+    margin-bottom: 20px;
+  }
+
+  .under-order-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+  .ms-btn-group {
+    display: flex;
+  }
+
+  .buy-now {
+    margin-right: 10px;
+  }
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
+
+
+@media only screen and (min-width: 768px) {
+  #logo {
+    width: 62px;
+    height: 28px;
+  }
+
+  header .container {
+    width: 626px;
+    margin: 0 auto;
+
+    display: flex;
+  }
+
+  nav {
+    position: fixed;
+    visibility: hidden;
+  }
+
+  .menu-burger {
+    position: relative;
+    visibility: visible;
+    margin-left: 580px;
+  }
+
+  /***********************************************************************************
+      # MAIN
+  ************************************************************************************/
+  main .container {
+    width: 698px;
+    margin: 0 auto;
+
+  }
+  
+  .cem-title {
+    font-family: var(--ff-mont);
+    font-size: var(--fs-23);
+    font-weight: var(--fw-600);
+    line-height: 41px;
+    color: var(--main-green);   
+    
+    margin-bottom: 16px;
+  }
+
+  .search-btn {
+    margin-right: 20px;
+  }
+
+/***********************************************************************************
+      # SEARCH FORM
+************************************************************************************/
+.search-form {
+  width: 698px;
+  height: 60px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  display: flex;
+
+}
+
+#search-icon {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+}
+
+input[type=search] {
+  width: 80%;
+  font-size: var(--fs-20);
+  color: var(--grey-1);
+  border: 0 transparent;
+}  
+
+
+/***********************************************************************************
+      # CEMETRY CARD footer container blyat SUUUKA!!!
+************************************************************************************/
+.cemetry-section .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.cemetry-card {
+  width: 340px;
+  margin: 0 auto;
+
+  display: flex;
+
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.cemetry-map {
+  margin-bottom: 20px;
+}
+
+.map {
+  width: 120px;
+}
+
+.cemetry-content {
+  padding: 20px;
+}
+
+.cemetry-title {
+  font-family: var(--ff-mont);
+  font-size: 16px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: var(--main-green);
+
+  margin-bottom: 10px;
+
+}
+
+.address-div {
+  display: flex;
+
+  margin-bottom: 10px;
+}
+
+.pointer {
+  width: 15px;
+  height: 19px;
+  margin-right: 10px;
+}
+
+.address {
+  font-family: var(--ff-poppins);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: var(--grey-2);
+}
+
+.cemetry-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.cemetry-label {
+  font-family: var(--ff-poppins);
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: var(--main-green);
+
+}
+
+.cemetry-txt {
+  font-family: var(--ff-poppins);
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: var(--main-green);
+
+  
+
+  }
+
+/***********************************************************************************
+      # FOOTER
+************************************************************************************/
+/***********************************************************************************
+      # FOOTER
+************************************************************************************/
+footer {
+  background: var(--main-green);
+}
+
+footer .container {
+  width: 698px;
+  margin: 0 auto;
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.footer-row-txt {
+  font-family: var(--ff-mont);
+  color: var(--grey-2);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px
+}
+
+  /***********************************************************************************
+        # CONTACTS
+  ************************************************************************************/
+  main .container {
+    width: 698px;
+    margin: 0 auto;
+
+    position: relative;
+
+  }
+
+  .contacts-banner-section {
+    height: 280px;
+  }
+
+  .contact-img {
+    position: absolute;
+  }
+
+  .contact-banner {
+    padding-top: 80px;
+  }
+
+
+    /****** ORDER CALL BACK SECTION **************/
+    .order-callback-section {
+      padding: 20px 0;
+    }
+    
+    .order-callback-title {
+      text-align: center;
+    }
+  
+    .order-callback-desc {
+      text-align: center;
+      padding-top: 20px;
+    }
+
+
+    .contacts-icons-block {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  
+    .contacts-hor-line {
+      position: fixed;
+      visibility: hidden;
+    }
+  
+   
+  
+    #cont-email-icon-icon {
+      width: 55px;
+      height: 40px;   
+  
+    }
+  
+    #cont-phone-icon-icon {
+      width: 45px;
+      height: 45px; 
+  
+  
+    }
+  
+    .contacts-email-block, .contacts-tel-phone {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+  
+      padding: 20px 50px;
+    }
+  
+    .cont-email-block-title, .cont-phone-title {
+      margin: 20px 0 5px 0;
+    }
+
+
+  /***********************************************************************************
+      # MAIN-2-HEAD
+  ************************************************************************************/
+  
+  .main-2-img-banner {
+    position: absolute;
+
+  }
+
+  .head .container {
+    width: 698px;
+    margin: 0 auto;
+
+    position: relative;
+
+  }
+
+  .main-2-head-title {
+    margin-top: 100px;
+  }
+
+  .main-2-head-desc {
+    padding: 20px 220px 40px 0;
+  }
+
+
+  /***********************************************************************************
+      # MAIN-2-SECTION-2
+  ************************************************************************************/
+  .section-2 .container {
+    width: 698px;
+    margin: 0 auto;
+
+    margin: 80px;
+  }
+
+  .section-2-title, .section-2-desc {
+    text-align: center;
+  }
+
+  .section-2-title .title {
+    font-size: var(--fs-25);
+    margin-bottom: 20px;
+  }
+
+
+  .section-2-desc .desc{
+    font-size: 18px;
+
+  }
+
+
+
+
+  /***********************************************************************************
+      # MAIN-2-CARD
+  ************************************************************************************/
+  .cond-card-section .container {
+    width: 698px;
+    margin: 0 auto;
+  }
+
+  .cond-card-section .condition-card {
+    display: flex;
+    flex-direction: row-reverse;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
+
+  .cond-card-content {
+    padding: 20px 20px;
+  }
+  .cond-card-title {
+    padding: 20px 0 10px 0;
+  }
+
+  .cond-card-title .h2-green-25 {
+    font-size: 20px;
+  }
+
+  .cond-card-txt {
+    padding-bottom: 15px;
+  }
+
+  .cond-card-txt .p-green {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .cond-card-btn {
+    margin-top: 150px;
+  }
+
+
+  /***********************************************************************************
+      # CAREER
+  ************************************************************************************/
+  .career-banner {
+    position: absolute;
+  }
+
+  .career-head .container {
+    width: 698px;
+    margin: 0 auto;
+
+    position: relative;
+    height: 576px;
+
+    padding: 120px 0 0 0;
+  }
+
+  .career-banner-title {
+    padding-bottom: 40px;
+  }
+
+  .career-banner-desc {
+    padding: 0 200px 40px 0;
+  
+  } 
+
+
+
+  /***********************************************************************************
+          # CARRER PAGE ##### WHY ITS WORTH WORKING WITH US?
+  ************************************************************************************/
+  .why_its_worth_working_w_us .container {
+    width: 698px;
+    margin: 0 auto;
+
+    padding: 60px 0;
+  }
+
+  .why_its_worth_working_w_us-title {
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+
+  .why_its_worth_working_w_us-title .h2-green {
+    font-size: 25px;
+  }
+
+  .why_its_worth_working_w_us-desc {
+    text-align: center;
+  }
+
+  .why_its_worth_working_w_us-desc .p-green {
+    font-size: 18px;
+  }
+
+
+
+
+    /***********************************************************************************
+      # VACANCY CARD
+  ************************************************************************************/
+  .vacancies-cards .container {
+    width: 698px;
+    margin: 0 auto;
+  }
+
+  .vacancies-cards-title .h2-green {
+    font-size: var(--fs-25);
+    text-align: center;
+  }
+
+  .vacancies-cards-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-columns: repeat(2, 1fr);
+
+    
+
+    gap: 10px;
+  }
+
+  .vacancies-cards-title {
+    padding-bottom: 40px;
+  }
+
+  .vacancy-card {
+    background: var(--white-plain);
+    width: 350px;
+    height: 200px;
+
+    padding: 20px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
+
+  .vacancy-card-title .h2-24 {
+    font-size: 20px;
+    padding-bottom: 100px;
+  }
+
+  .vacancy-card-arrow {
+    float: right;
+  }
+
+  .btn-vacancy-request {
+    width: 251px;
+  }
+
+
+
+
+  /***********************************************************************************
+      # FORM SECTION
+  ************************************************************************************/
+  .form-section {
+    background: #E9EDED;
+  }
+  
+  .form-section .container {
+    width: 698px;
+    margin: 0 auto;
+
+    padding: 60px 0;
+  }
+
+  .leave-feedback-title {
+    text-align: center;
+    padding-bottom: 20px;
+  }
+
+  .leave-feedback-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+  .leave-feedback-desc {
+    text-align: center;
+    padding-bottom: 60px;
+
+  }
+
+  .leave-feedback-desc .p-green {
+    font-size: 18px;
+  }
+
+  .v-feedback-form-input {
+    background: var(--white-plain);
+    width: 640px;
+    height: 62px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    border: 0;
+    padding: 12px;
+    color: var(--black-plain);
+  }
+
+  .message {
+    height: 180px;
+  }
+
+  .v-feedback-form-row-1 {
+    display: grid;
+    gap: 15px;
+
+    padding-bottom: 15px;
+  }
+
+  .v-feedback-form-row-2 {
+    display: grid;
+    gap: 15px;
+  }
+
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding-bottom: 40px;
+  }
+
+  .cv {
+    margin-bottom: 10px;
+  }
+
+
+  /***********************************************************************************
+      # VACANCY PAGE
+  ************************************************************************************/
+  .vacancy-block-1 .container {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 45px;
+  }
+
+  .why_to_choose_rip_card {
+    background: var(--white-plain);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+
+    padding: 25px;
+  }
+
+  .vacancy-rip-logo {
+    padding-bottom: 20px;
+  }
+
+  .vacancy-rip-title {
+    padding-right: 80px;
+    padding-bottom: 20px;
+  }
+
+  .vacancy-rip-txt {
+    padding-right: 60px;
+  }
+
+
+  .job-title {
+    padding-bottom: 20px;
+  }
+
+  .job-title h1 {
+    font-size: var(--fs-30);
+  }
+
+  .job-desc {
+    padding-bottom: 20px;
+    padding-right: 120px;
+  }
+
+  .job-desc .p-green {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .who_we_are_looking-title {
+    padding-bottom: 20px;
+  }
+
+  .who_we_are_looking-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+  .who_we_are_looking-desc {
+    padding-right: 120px;
+
+  }
+
+  .who_we_are_looking-desc .p-green {
+    font-size: 15px;
+    line-height: 25px;
+
+  }
+
+
+    /********************** BLOCK-2 *******************************************/
+    .vacancy-block-2 {
+      background: var(--grey-7);
+      padding: 20px;
+    }
+  
+    .functionality-title {
+      padding-bottom: 20px;
+    }
+  
+    .functionality-title .h2-green {
+      font-size: var(--fs-25);
+    }
+  
+    .func-txt-1 {
+      padding-bottom: 20px;
+    }
+  
+    .func-txt-1 .p-green {
+      font-size: var(--fs-18);
+      line-height: 25px;
+    }
+  
+    .func-ol {
+      padding-bottom: 20px;
+    }
+  
+    .func-ol .p-green {
+      font-size: var(--fs-18);
+      line-height: 25px;
+    }
+  
+    .func-txt-2 .p-green {
+      font-size: var(--fs-18);
+      line-height: 25px;
+  
+    }
+
+    .memorial-service .container {
+      margin-top: 0;
+      padding-top: 0;
+    }
+
+    .memorial-service-title-img {
+      display: flex;
+    }
+  
+    .memorial-service-title {
+      padding-bottom: 5px;
+      margin-right: 15px;
+    }
+  
+    .memorial-service-img {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+    }
+  
+    .rating-star {
+      width: 17px;
+      height: 16px;
+  
+      margin-right: 5px;
+    }
+  
+  
+  
+  
+    .memorial-service-title .h2-green {
+      font-size: var(--fs-25);
+    }
+
+
+    .memorial-service-order-img {
+      text-align: center;
+      padding-bottom: 20px;
+    }
+  
+    #ms-img {
+      border-radius: 16px;
+    }
+  
+    .memorial-service-order-desc .p-green {
+      font-size: var(--fs-18);
+      line-height: 25px;
+    }
+  
+    .memorial-service-order-desc {
+      padding-bottom: 20px;
+    }
+  
+    .tenge-img-div {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  
+      margin-right: 14px;
+    }
+  
+    .tenge-img {
+      width: 16px;
+      height: 18px;
+    }
+  
+    .memorial-under-order {
+      display: flex;
+  
+      margin-bottom: 20px;
+    }
+  
+    .under-order-title .h2-green {
+      font-size: var(--fs-25);
+    }
+  
+    .ms-btn-group {
+      display: flex;
+    }
+  
+    .buy-now {
+      margin-right: 10px;
+    }
+
+
+
+
+
+
+  
+
+
+
+
+
+
+
+
+
+
+
+} 
+
+
+@media only screen and (min-width: 992px) {
+  header {
+    width: 100%;
+    background: #F2F2F2;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  
+
+  }  
+
+  header .container {
+    width: 860px;
+    margin: 0 auto;
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    position: relative;
+    visibility: visible;
+
+    font-size: 12px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 10px;
+  }
+
+
+  .menu-burger {
+    position: fixed;
+    visibility: hidden;
+  }
+
+  .btn-group {
+    position: relative;
+    visibility: visible;
+  }
+
+  #cart-ico {
+    width: 14px;
+    height: 14px;
+
+    margin-right: 5px;
+  }
+
+  .auth {
+    font-size: 10px;
+  }
+ 
+  /***********************************************************************************
+      # MAIN
+  ************************************************************************************/
+  main .container {
+    width: 810px;
+    margin: 0 auto;
+
+  }
+  
+  .cem-title {
+    font-family: var(--ff-mont);
+    font-size: var(--fs-23);
+    font-weight: var(--fw-600);
+    line-height: 41px;
+    color: var(--main-green);   
+    
+    margin-bottom: 16px;
+  }
+
+  .search-btn {
+    margin-right: 20px;
+  }
+
+  /***********************************************************************************
+        # SEARCH FORM
+  ************************************************************************************/
+  .search-form {
+    width: 810px;
+    height: 60px;
+    background: white;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+
+    display: flex;
+
+  }
+
+  #search-icon {
+    width: 20px;
+    height: 20px;
+    margin: 20px;
+  }
+
+  input[type=search] {
+    width: 80%;
+    font-size: var(--fs-20);
+    color: var(--grey-1);
+    border: 0 transparent;
+  }  
+
+
+  /***********************************************************************************
+      # CEMETRY CARD footer container blyat SUUUKA!!!
+************************************************************************************/
+  .cemetry-section .container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .cemetry-card {
+    width: 340px;
+    margin: 0 auto;
+
+    display: flex;
+
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
+
+  .cemetry-map {
+    margin-bottom: 20px;
+  }
+
+  .map {
+    width: 120px;
+  }
+
+  .cemetry-content {
+    padding: 20px;
+  }
+
+  .cemetry-title {
+    font-family: var(--ff-mont);
+    font-size: 16px;
+    font-weight: 600;
+    line-height: 30px;
+    letter-spacing: 0px;
+    color: var(--main-green);
+
+    margin-bottom: 10px;
+
+  }
+
+  .address-div {
+    display: flex;
+
+    margin-bottom: 10px;
+  }
+
+  .pointer {
+    width: 15px;
+    height: 19px;
+    margin-right: 10px;
+  }
+
+  .address {
+    font-family: var(--ff-poppins);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: var(--grey-2);
+  }
+
+  .cemetry-block {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+  }
+
+  .cemetry-label {
+    font-family: var(--ff-poppins);
+    font-size: 14px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0em;
+    color: var(--main-green);
+
+  }
+
+  .cemetry-txt {
+    font-family: var(--ff-poppins);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0px;
+    color: var(--main-green);
+
+    
+
+  }
+
+  /***********************************************************************************
+        # FOOTER
+  ************************************************************************************/
+  footer {
+    background: var(--main-green);
+
+  }
+
+  footer .container {
+    width: 810px;
+    margin: 0 auto;
+
+  }
+
+  .footer-row {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-row li {
+    margin-right: 10px;
+  }
+
+  .social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .footer-row-txt {
+    font-family: var(--ff-mont);
+    color: var(--grey-2);
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 24px
+  }
+
+  .row-3 {
+    display: flex;
+    flex-direction: column
+  }
+
+  .row-3 li {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 20px;
+  }
+
+
+
+  /***********************************************************************************
+      # CONTACTS
+************************************************************************************/
+  main .container {
+    width: 810px;
+    margin: 0 auto;
+
+    position: relative;
+
+  }
+
+  .contacts-banner-section {
+    height: 280px;
+  }
+
+  .contact-img {
+    position: absolute;
+  }
+
+  .contact-banner {
+    padding-top: 80px;
+  }
+
+
+    /****** ORDER CALL BACK SECTION **************/
+    .order-callback-section {
+      padding: 20px 0;
+    }
+    
+    .order-callback-title {
+      text-align: center;
+    }
+  
+    .order-callback-desc {
+      text-align: center;
+      padding-top: 20px;
+    }
+
+
+  .contacts-icons-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contacts-hor-line {
+    width: 2px;
+    background: var(--main-green);
+    height: 180px;
+  }
+
+ 
+
+  #cont-email-icon-icon {
+    width: 55px;
+    height: 40px;   
+
+  }
+
+  #cont-phone-icon-icon {
+    width: 45px;
+    height: 45px; 
+
+
+  }
+
+  .contacts-email-block, .contacts-tel-phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 120px;
+  }
+
+  .cont-email-block-title, .cont-phone-title {
+    margin: 20px 0 5px 0;
+  }
+
+
+    /***********************************************************************************
+      # MAIN-2-HEAD
+  ************************************************************************************/
+
+  
+  .main-2-img-banner {
+    position: absolute;
+  }
+
+  .head .container {
+    width: 860px;
+    margin: 0 auto;
+
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .main-2-head-title {
+    margin-top: 100px;
+  }
+
+  .main-2-head-desc {
+    padding: 20px 280px 40px 0;
+  }
+
+
+
+    /***********************************************************************************
+      # SECTION-2
+  ************************************************************************************/
+  .section-2 .container {
+    width: 860px;
+    margin: 0 auto;
+
+  }
+
+  .section-2-title, .section-2-desc {
+    text-align: center;
+  }
+
+  .section-2-title .title {
+    font-size: var(--fs-25);
+    margin-bottom: 20px;
+  }
+
+
+  .section-2-desc .desc{
+    font-size: 18px;
+
+  }
+
+
+    /***********************************************************************************
+      # CAREER
+  ************************************************************************************/
+  .career-banner {
+    position: absolute;
+  }
+
+  .career-head .container {
+    width: 840px;
+    margin: 0 auto;
+
+    position: relative;
+    height: 576px;
+
+    padding: 120px 0 0 0;
+  }
+
+  .career-banner-title {
+    padding-bottom: 40px;
+  }
+
+  .career-banner-desc {
+    padding: 0 200px 40px 0;
+  
+  } 
+
+
+
+  /***********************************************************************************
+          # CARRER PAGE ##### WHY ITS WORTH WORKING WITH US?
+  ************************************************************************************/
+  .why_its_worth_working_w_us .container {
+    width: 840px;
+    margin: 0 auto;
+
+    padding: 60px 0;
+  }
+
+  .why_its_worth_working_w_us-title {
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+
+  .why_its_worth_working_w_us-title .h2-green {
+    font-size: 30px;
+  }
+
+  .why_its_worth_working_w_us-desc {
+    text-align: center;
+  }
+
+  .why_its_worth_working_w_us-desc .p-green {
+    font-size: 20px;
+  }
+
+
+
+      /***********************************************************************************
+      # VACANCY CARD
+  ************************************************************************************/
+  .vacancies-cards .container {
+    width: 840px;
+    margin: 0 auto;
+  }
+
+  .vacancies-cards-title .h2-green {
+    font-size: var(--fs-30);
+    text-align: center;
+  }
+
+  .vacancies-cards-grid {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+
+    grid-template-columns: repeat(3, 1fr);
+
+    
+
+    gap: 10px;
+  }
+
+  .vacancies-cards-title {
+    padding-bottom: 40px;
+  }
+
+  .vacancy-card {
+    background: var(--white-plain);
+    width: 300px;
+    height: 160px;
+
+    padding: 20px;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
+
+  .vacancy-card-title .h2-24 {
+    font-size: 20px;
+    padding-bottom: 60px;
+  }
+
+  .vacancy-card-arrow {
+    float: right;
+  }
+
+
+    /***********************************************************************************
+      # FORM SECTION
+  ************************************************************************************/
+  .form-section {
+    background: #E9EDED;
+  }
+  
+  .form-section .container {
+    width: 840px;
+    margin: 0 auto;
+
+    padding: 60px 0;
+  }
+
+  .leave-feedback-title {
+    text-align: center;
+  }
+
+  .leave-feedback-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+  .leave-feedback-desc {
+    text-align: center;
+    padding: 0 150px 60px;
+
+  }
+
+  .leave-feedback-desc .p-green {
+    font-size: 18px;
+  }
+
+  .v-feedback-form-input {
+    background: var(--white-plain);
+    width: 275px;
+    height: 62px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+    border: 0;
+    padding: 12px;
+    color: var(--black-plain);
+  }
+
+  .message {
+    width: 560px;
+    height: 135px;
+  }
+
+  .v-feedback-form-row-1 {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+
+    padding-bottom: 15px;
+  }
+
+  .v-feedback-form-row-2 {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  .feedback-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .cv {
+    margin-bottom: 10px;
+  }
+
+  .feedback-form-row-2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+
+  /***********************************************************************************
+      # VACANCY PAGE
+  ************************************************************************************/
+  .vacancy-block-1 .container {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 45px;
+  }
+
+  .why_to_choose_rip_card {
+    background: var(--white-plain);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+
+    padding: 25px;
+  }
+
+  .vacancy-rip-logo {
+    padding-bottom: 20px;
+  }
+
+  .vacancy-rip-title {
+    padding-right: 80px;
+    padding-bottom: 20px;
+  }
+
+  .vacancy-rip-txt {
+    padding-right: 60px;
+  }
+
+
+    /********************** BLOCK-2 *******************************************/
+    .vacancy-block-2 {
+      background: var(--grey-7);
+      padding: 20px;
+    }
+  
+    .functionality-title {
+      padding-bottom: 20px;
+    }
+  
+    .functionality-title .h2-green {
+      font-size: var(--fs-25);
+    }
+  
+    .func-txt-1 {
+      padding-bottom: 20px;
+    }
+  
+    .func-txt-1 .p-green {
+      font-size: var(--fs-18);
+      line-height: 25px;
+    }
+  
+    .func-ol {
+      padding-bottom: 20px;
+    }
+  
+    .func-ol .p-green {
+      font-size: var(--fs-18);
+      line-height: 25px;
+    }
+  
+    .func-txt-2 .p-green {
+      font-size: var(--fs-18);
+      line-height: 25px;
+  
+    }
+
+
+
+  /***********************************************************************************
+      # RITUAL SERVICES PAGE
+  ************************************************************************************/  
+  .ritual-services-title .container {
+    width: 840px;
+    margin: 0 auto;
+  }
+  
+  .ritual-services-title-title h1 {
+    font-size: var(--fs-35);
+  }
+
+  .ritual-services-title-title {
+    padding-bottom: 14px;
+  }
+
+  .ritual-services-title-subt {
+    display: flex;
+  }
+
+  .ritual-services-title-subt .p-green-16 {
+    font-size: 16px;
+  }
+
+  .rs-arrow-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 12px;
+  }
+
+
+  .memorial-service .container {
+    width: 840px;
+    margin: 0 auto;
+  }
+
+  .memorial-service-title-img {
+    display: flex;
+  }
+
+  .memorial-service-title {
+    padding-bottom: 5px;
+    margin-right: 15px;
+  }
+
+  .memorial-service-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .rating-star {
+    width: 17px;
+    height: 16px;
+
+    margin-right: 5px;
+  }
+
+
+
+
+  .memorial-service-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+
+
+  .memorial-service-order {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .memorial-service-order-img {
+    margin-right: 10px;
+  }
+
+  #ms-img {
+    width: 300px;
+    height: 264px;
+    border-radius: 16px;
+  }
+
+  .memorial-service-order-desc .p-green {
+    font-size: var(--fs-13);
+    line-height: 21px;
+  }
+
+  .memorial-service-order-desc {
+    padding-bottom: 20px;
+  }
+
+  .tenge-img-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-right: 14px;
+  }
+
+  .tenge-img {
+    width: 16px;
+    height: 18px;
+  }
+
+  .memorial-under-order {
+    display: flex;
+
+    margin-bottom: 20px;
+  }
+
+  .under-order-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+  .ms-btn-group {
+    display: flex;
+  }
+
+  .buy-now {
+    margin-right: 10px;
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+} 
+
+
+
+@media only screen and (min-width: 1280px) {
+  header {
+    width: 100%;
+    background: #F2F2F2;
+    box-shadow: 0px 2px 10px rgba(0, 0, 0, 0.1);
+  
+
+  }  
+
+  #career-img {
+    width: 1280px;
+  }
+
+  header .container {
+    width: 1046px;
+    margin: 0 auto;
+
+    align-items: center;
+    display: flex;
+    justify-content: space-between;
+  }
+
+  nav {
+    position: relative;
+    visibility: visible;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    gap: 18px;
+  }
+
+
+  .menu-burger {
+    position: fixed;
+    visibility: hidden;
+  }
+
+  .btn-group {
+    position: relative;
+    visibility: visible;
+  }
+
+  #cart-ico {
+    width: 16px;
+    height: 16px;
+
+    margin-right: 10px;
+    margin-top: 2px;
+  }
+
+
+
+  .auth {
+    font-size: 12px;
+  } 
+ 
+ 
+
+  /***********************************************************************************
+      # MAIN
+  ************************************************************************************/
+  main .container {
+    width: 1046px;
+    margin: 0 auto;
+
+  }
+  
+  .cem-title {
+    font-family: var(--ff-mont);
+    font-size: var(--fs-23);
+    font-weight: var(--fw-600);
+    line-height: 41px;
+    color: var(--main-green);   
+    
+    margin-bottom: 16px;
+  }
+
+  .search-btn {
+    margin-right: 20px;
+  }
+
+/***********************************************************************************
+      # SEARCH FORM
+************************************************************************************/
+.search-form {
+  width: 1046px;
+  height: 60px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  display: flex;
+
+}
+
+#search-icon {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+}
+
+input[type=search] {
+  width: 80%;
+  font-size: var(--fs-20);
+  color: var(--grey-1);
+  border: 0 transparent;
+}   
+
+  /***********************************************************************************
+      # CEMETRY CARD
+************************************************************************************/
+.cemetry-section .container {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.cemetry-card {
+  width: 480px;
+  margin: 0 auto;
+
+  display: flex;
+
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.cemetry-map {
+  margin-bottom: 20px;
+}
+
+.map {
+  width: 180px;
+}
+
+.cemetry-content {
+  padding: 20px;
+}
+
+.cemetry-title {
+  font-family: var(--ff-mont);
+  font-size: 20px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: var(--main-green);
+
+  margin-bottom: 10px;
+
+}
+
+.address-div {
+  display: flex;
+
+  margin-bottom: 10px;
+}
+
+.pointer {
+  width: 15px;
+  height: 19px;
+  margin-right: 10px;
+}
+
+.address {
+  font-family: var(--ff-poppins);
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: var(--grey-2);
+}
+
+.cemetry-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.cemetry-label {
+  font-family: var(--ff-poppins);
+  font-size: 18px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: var(--main-green);
+
+}
+
+.cemetry-txt {
+  font-family: var(--ff-poppins);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: var(--main-green);
+
+  
+
+}
+
+
+/***********************************************************************************
+      # FOOTER
+************************************************************************************/
+footer {
+  background: var(--main-green);
+  
+}
+
+footer .container {
+  width: 1280px;
+  margin: 0 auto;
+
+}
+
+.footer-row {
+  display: flex;
+  flex-direction: row;
+
+}
+
+.social-media {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer-row li {
+  margin-right: 10px;
+}
+
+.footer-row-txt {
+  font-family: var(--ff-mont);
+  color: var(--grey-2);
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 24px
+}
+
+.row-3 {
+  display: flex;
+  flex-direction: column;
+}
+
+.row-3 li {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  margin-right: 20px;
+}
+
+
+
+
+/***********************************************************************************
+      # CONTACTS
+************************************************************************************/
+
+
+main .container {
+    width: 1046px;
+    margin: 0 auto;
+
+    position: relative;
+
+  }
+
+  .contacts-banner-section {
+    height: 270px;
+  }
+
+  .contact-img {
+    position: absolute;
+  }
+
+  .contact-banner {
+    padding-top: 80px;
+  }
+  
+
+  /****** ORDER CALL BACK SECTION **************/
+  .order-callback-section {
+    padding: 20px 0;
+  }
+  
+  .order-callback-title {
+    text-align: center;
+  }
+
+  .order-callback-desc {
+    text-align: center;
+    padding-top: 20px;
+  }
+
+  .contacts-icons-block {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contacts-hor-line {
+    width: 2px;
+    background: var(--main-green);
+    height: 180px;
+  }
+
+ 
+
+  #cont-email-icon-icon {
+    width: 55px;
+    height: 40px;   
+
+  }
+
+  #cont-phone-icon-icon {
+    width: 45px;
+    height: 45px; 
+
+
+  }
+
+  .contacts-email-block, .contacts-tel-phone {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 20px 120px;
+  }
+
+  .cont-email-block-title, .cont-phone-title {
+    margin: 20px 0 5px 0;
+  }
+
+
+  /***********************************************************************************
+      # MAIN-2-HEAD
+  ************************************************************************************/
+
+
+
+
+  .head .container {
+    position: relative;
+
+  }
+
+  .main-2-head-title {
+    margin-top: 100px;
+  }
+
+  .main-2-head-desc {
+    padding: 20px 480px 40px 0;
+  }
+
+
+
+      /***********************************************************************************
+      # SECTION-2
+  ************************************************************************************/
+  .section-2 .container {
+    width: 1046px;
+    margin: 0 auto;
+
+  }
+
+  .section-2-title, .section-2-desc {
+    text-align: center;
+  }
+
+  .section-2-title .title {
+    font-size: var(--fs-25);
+    margin-bottom: 20px;
+  }
+
+
+  .section-2-desc .desc{
+    font-size: 18px;
+
+  }
+
+
+
+
+    /***********************************************************************************
+      # MAIN-2-CARD
+  ************************************************************************************/
+  .cond-card-section .container {
+    width: 1046px;
+    margin: 0 auto;
+  }
+
+  .cond-card-section .condition-card {
+    display: flex;
+    flex-direction: row-reverse;
+
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+  }
+
+  .cond-card-content {
+    padding: 20px 20px;
+  }
+  .cond-card-title {
+    padding: 20px 0 10px 0;
+  }
+
+  .cond-card-title .h2-green-25 {
+    font-size: 30px;
+  }
+
+  .cond-card-txt {
+    padding-bottom: 20px;
+  }
+
+  .cond-card-txt .p-green {
+    font-size: 14px;
+    line-height: 25px;
+  }
+
+  .cond-card-btn {
+    margin-top: 280px;
+  }
+
+
+
+
+     /***********************************************************************************
+      # CAREER
+  ************************************************************************************/
+  .career-banner {
+    position: absolute;
+  }
+
+  .career-head .container {
+    width: 1046px;
+    margin: 0 auto;
+
+    position: relative;
+    height: 576px;
+
+    padding: 120px 0 0 0;
+  }
+
+  .career-banner-title {
+    padding-bottom: 40px;
+  }
+
+  .career-banner-desc {
+    padding: 0 460px 40px 0;
+  
+  } 
+
+
+    /***********************************************************************************
+          # CARRER PAGE ##### WHY ITS WORTH WORKING WITH US?
+  ************************************************************************************/
+  .why_its_worth_working_w_us .container {
+    width: 1046px;
+    margin: 0 auto;
+
+    padding: 60px 0;
+  }
+
+  .why_its_worth_working_w_us-title {
+    text-align: center;
+    padding: 0 0 20px 0;
+  }
+
+  .why_its_worth_working_w_us-title .h2-green {
+    font-size: 30px;
+  }
+
+  .why_its_worth_working_w_us-desc {
+    text-align: center;
+
+    padding: 0 160px;
+  }
+
+  .why_its_worth_working_w_us-desc .p-green {
+    font-size: 20px;
+  }
+
+
+  /***********************************************************************************
+      # VACANCY PAGE
+  ************************************************************************************/
+  .vacancy-block-1 {
+    padding: 20px;
+  }
+  
+  .vacancy-block-1 .container {
+    width: 100%;
+    padding-top: 30px;
+    padding-left: 31px;
+    padding-right: 31px;
+    padding-bottom: 45px;
+
+    display: flex;
+    flex-direction: row-reverse;
+  }
+
+  .why_to_choose_rip_card {
+    background: var(--white-plain);
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+
+    padding: 25px;
+  }
+
+  .vacancy-rip-logo {
+    padding-bottom: 20px;
+  }
+
+  .vacancy-rip-title {
+    padding-right: 0;
+    padding-bottom: 20px;
+  }
+
+  .vacancy-rip-txt {
+    padding-right: 0;
+  }
+
+
+
+
+
+
+
+  
+  .job-title {
+    padding-bottom: 20px;
+  }
+
+  .job-title h1 {
+    font-size: var(--fs-30);
+  }
+
+  .job-desc {
+    padding-bottom: 20px;
+    padding-right: 100px;
+  }
+
+  .job-desc .p-green {
+    font-size: 15px;
+    line-height: 25px;
+  }
+
+  .who_we_are_looking-title {
+    padding-bottom: 20px;
+  }
+
+  .who_we_are_looking-title .h2-green {
+    font-size: var(--fs-25);
+  }
+
+  .who_we_are_looking-desc {
+    padding-right: 120px;
+
+  }
+
+  .who_we_are_looking-desc .p-green {
+    font-size: 15px;
+    line-height: 25px;
+
+  }
+
+
+    /********************** BLOCK-2 *******************************************/
+    .vacancy-block-2 {
+      background: var(--grey-7);
+      padding: 20px;
+    }
+  
+    .functionality-title {
+      padding-bottom: 20px;
+    }
+  
+    .functionality-title .h2-green {
+      font-size: var(--fs-25);
+    }
+  
+    .func-txt-1 {
+      padding-bottom: 20px;
+      padding-right: 420px;
+    }
+  
+    .func-txt-1 .p-green {
+      font-size: var(--fs-18);
+      line-height: 25px;
+    }
+  
+    .func-ol {
+      padding-bottom: 20px;
+      padding-right: 420px;
+
+    }
+  
+    .func-ol .p-green {
+      font-size: var(--fs-18);
+      line-height: 25px;
+    }
+
+    .func-txt-2 {
+      padding-right: 420px;
+
+    }
+  
+    .func-txt-2 .p-green {
+      font-size: var(--fs-18);
+      line-height: 25px;
+  
+    }
+
+
+    .vacancy-block-3 .container {
+      width: 100%;
+      padding-top: 30px;
+      padding-left: 31px;
+      padding-right: 31px;
+      padding-bottom: 45px;
+    }
+  
+    .vacancy-block-3 .vacancy-block-3-title {
+      font-size: var(--fs-25);
+    }
+  
+    .vacancy-block-3 .vacancy-block-3-txt {
+      font-size: var(--fs-18);
+      padding-right: 160px;
+    }
+  
+    .result-desc {
+      width: max-content;
+      padding: 25px;
+      border: 1px solid #224C4F;
+      border-radius: 16px;
+
+
+    }
+
+
+
+  /***********************************************************************************
+      # RITUAL SERVICES PAGE
+  ************************************************************************************/  
+  .ritual-services-title .container {
+    width: 1046px;
+    margin: 0 auto;
+  }
+  
+  .ritual-services-title-title {
+    padding-bottom: 14px;
+  }
+
+  .ritual-services-title-subt {
+    display: flex;
+  }
+
+  .rs-arrow-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    padding: 0 12px;
+  }
+
+
+
+  .memorial-service .container {
+    width: 1046px;
+    margin: 0 auto;
+  }
+
+  .memorial-service-title-img {
+    display: flex;
+  }
+
+  .memorial-service-title {
+    padding-bottom: 5px;
+    margin-right: 15px;
+  }
+
+  .memorial-service-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+  }
+
+  .rating-star {
+    width: 17px;
+    height: 16px;
+
+    margin-right: 5px;
+  }
+
+
+
+
+  .memorial-service-title .h2-green {
+    font-size: var(--fs-30);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+} 
+
+
