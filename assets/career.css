@@ -178,124 +178,134 @@
   background: purple;
 }
 
+/***********************************************************************************
+  # "Оставьте нам заявку"
+************************************************************************************/
+.career-leave-us-a-request {
+  width: 100%;
+  height: 100%;
+  background: #E9EDED;
+}
 
-  /***********************************************************************************
-      # VACANCY CARD
-  ************************************************************************************/
-  .vacancies-cards .container {
-    width: 480px;
-    margin: 0 auto;
-  }
+.career-leave-us-a-request__wrapper {
+  width: 100%;
+  height: 100%;
 
-  .vacancies-cards-title .h2-green {
-    font-size: var(--fs-25);
-    text-align: center;
-  }
+  padding-top: 47px;
+  padding-bottom: 74px;
+}
 
-  .vacancies-cards-grid {
-    display: grid;
-    justify-content: center;
-    align-items: center;
+.career-leave-us-a-request__title {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 
-    gap: 10px;
-  }
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  color: var(--main-color);
 
-  .vacancies-cards-title {
-    padding-bottom: 40px;
-  }
+  margin-bottom: 57px;
+}
 
-  .vacancy-card {
-    background: var(--white-plain);
-    width: 376px;
-    height: 196px;
+.career-leave-us-a-request__form {
+  width: 100%;
+}
 
-    padding: 20px;
+.career-leave-us-a-request__form-row-top {
+  width: 100%;
 
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 16px;
-  }
+  display: flex;
+  gap: 20px;
 
-  .vacancy-card-title .h2-24 {
-    font-size: 20px;
-    padding-bottom: 100px;
-  }
-
-  .vacancy-card-arrow {
-    float: right;
-  }
-
-
-
-  /***********************************************************************************
-      # FORM SECTION
-  ************************************************************************************/
-  .form-section {
-    background: #E9EDED;
-  }
+  margin-bottom: 29px;
+}
+ 
+#career-leave-us-a-request__form-fullname, #career-leave-us-a-request__form-phone-number, #career-leave-us-a-request__form-email, .career-leave-us-a-request__form-upload-wrapper {
+  width: 100%;
   
-  .form-section .container {
-    width: 480px;
-    margin: 0 auto;
+  background: #FFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: 0;
 
-    padding: 60px 0;
-  }
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000;
 
-  .leave-feedback-title {
-    text-align: center;
-    padding-bottom: 20px;
-  }
+  padding: 23px 31px;
 
-  .leave-feedback-title .h2-green {
-    font-size: var(--fs-25);
-  }
+}
 
-  .leave-feedback-desc {
-    text-align: center;
-    padding-bottom: 60px;
+#career-leave-us-a-request__form-msg {
+  width: 766px;
+  height: 178px;
+  
+  background: #FFF;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+  border: 0;
 
-  }
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000;
 
-  .leave-feedback-desc .p-green {
-    font-size: 18px;
-  }
+  padding-top: 27px;
+  padding-left: 31px;
+  padding-bottom: 121px;
+  padding-right: 20px;
+}
 
-  .v-feedback-form-input {
-    background: var(--white-plain);
-    width: 440px;
-    height: 62px;
-    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
-    border-radius: 16px;
-    border: 0;
-    padding: 12px;
-    color: var(--black-plain);
-  }
+.career-leave-us-a-request__form-row-bottom {
+  width: 100%;
 
-  .message {
-    height: 180px;
-  }
+  display: flex;
+  gap: 20px;
+}
 
-  .v-feedback-form-row-1 {
-    display: grid;
-    gap: 15px;
+.career-leave-us-a-request__form-row-bottom-right-col {
+  display: flex;
+  flex-direction: column;
+  gap: 26px;
+}
 
-    padding-bottom: 15px;
-  }
+.career-leave-us-a-request__form-upload-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
 
-  .v-feedback-form-row-2 {
-    display: grid;
-    gap: 15px;
-  }
+#career-leave-us-a-request__form-upload-cv, #career-leave-us-a-request__form-upload-files {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #000;
+  border: 0;
+}
 
-  .cv {
-    margin-bottom: 10px;
-  }
+.career-leave-us-a-request__form-upload-cv-img, .career-leave-us-a-request__form-upload-files-img {
+  width: 30px;
+  height: 27px;
+  cursor: pointer;
+}
 
-  .feedback-form-row-2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-  }
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -435,6 +445,46 @@
     justify-content: center;
   }
 
+/***********************************************************************************
+  # "Оставьте нам заявку"
+************************************************************************************/
+.career-leave-us-a-request {
+  height: 100%;
+  padding-bottom: 74px;
+}
+
+.career-leave-us-a-request__wrapper {
+  height: 100%;
+}
+
+
+#career-leave-us-a-request__form-fullname, #career-leave-us-a-request__form-phone-number, #career-leave-us-a-request__form-email {
+  width: 100%;
+  font-size: 18px;
+  font-size: 18px;
+}
+
+.career-leave-us-a-request__form-upload-wrapper {
+  width: 298px;
+  padding: 23px 16px;
+}
+
+#career-leave-us-a-request__form-msg {
+  font-size: 18px;
+}
+
+#career-leave-us-a-request__form-upload-cv, #career-leave-us-a-request__form-upload-files {
+  font-size: 16px;
+}
+
+.career-leave-us-a-request__form-upload-cv-img, .career-leave-us-a-request__form-upload-files-img {
+  width: 27px;
+  height: 24px;
+}
+
+
+
+
 
 }
 
@@ -450,6 +500,27 @@
   .career-why-its-worth-working-w-us__info p {
     width: 82%;
   }
+
+
+  #career-leave-us-a-request__form-fullname, #career-leave-us-a-request__form-phone-number, #career-leave-us-a-request__form-email {
+    width: 100%;
+    font-size: 13px;
+    padding: 18px 18px;
+
+  }
+
+  #career-leave-us-a-request__form-upload-cv, #career-leave-us-a-request__form-upload-files {
+    font-size: 16px;
+  }
+
+  #career-leave-us-a-request__form-msg {
+    font-size: 16px;
+  }
+
+
+
+  
+
 
 }
 
@@ -499,7 +570,53 @@
     text-align: left;
   }
 
+
+
+  .career-leave-us-a-request__form-upload-wrapper {
+    width: 248px;
+    padding: 23px 16px;
+  }
+
 }
+
+@media only screen and (max-width: 643px) {
+  .career-leave-us-a-request .container {
+    width: 98%;
+  }
+
+  .career-leave-us-a-request__title {
+    margin-bottom: 17px;
+  }
+  
+  .career-leave-us-a-request__form-row-top {
+    flex-direction: column;
+    gap: 17px;
+    margin-bottom: 17px;
+  }
+
+  .career-leave-us-a-request__form-row-bottom {
+    flex-direction: column;
+  }
+
+  #career-leave-us-a-request__form-msg {
+    width: 100%;
+    height: 178px;
+    padding-top: 27px;
+    padding-left: 16px;
+  }
+
+  .career-leave-us-a-request__form-row-bottom-right-col {
+    gap: 17px;
+  }
+
+  .career-leave-us-a-request__form-upload-wrapper {
+    width: 100%;
+    padding: 23px 16px;
+  }
+
+
+}
+
 
 @media only screen and (max-width: 600px) {
   .career-open-vacancies__card {
@@ -519,6 +636,13 @@
     margin: 0 auto;
   }
 
+}
+
+@media only screen and (max-width: 338px) {
+  .career-leave-us-a-request__title {
+    font-size: 26px;
+    margin-bottom: 17px;
+  }
 }
 
 @media only screen and (max-width: 325px) {
