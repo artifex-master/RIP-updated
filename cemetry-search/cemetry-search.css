@@ -1,0 +1,203 @@
+.cem-title h1 {
+  font-size: 40px;
+  color: #224C4F;   
+  
+  margin-top: 58px;
+  margin-bottom: 24px;
+}
+
+.search-div {
+  display: flex;
+  gap: 38px;
+  margin-bottom: 24px;
+}
+
+.search-div .btn {
+  padding: 15px 12px;
+}
+
+.search-div .btn-transparent {
+  color: #224C4F;
+}
+
+/***********************************************************************************
+      # SEARCH FORM
+************************************************************************************/
+.search-form {
+  width: 100%;
+  height: 60px;
+  background: white;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  margin-bottom: 24px;
+
+  display: flex;
+}
+
+.choose-city-div {
+  display: flex;
+  margin-bottom: 27px;
+}
+
+.choose-city-div__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  line-height: 38px;
+  font-weight: 600;
+  color: #224C4F;
+}
+
+.choose-city-nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  padding-top: 6px;
+  padding-left: 17px;
+
+  gap: 13px;
+}
+
+.choose-city-nav p {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  line-height: 30px;
+  font-weight: 400;
+  color: #224C4F;
+
+}
+
+.cemetries-of-the-city__wrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+
+.cemetries-of-the-city__title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  color: #224C4F;
+}
+
+.cemetries-of-the-city__subtitle {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  font-style: normal;
+  color: #224C4F;
+}
+
+
+#search-icon {
+  width: 20px;
+  height: 20px;
+  margin: 20px;
+}
+
+input[type=search] {
+  width: 80%;
+  font-size: 20px;
+  border: 0 transparent;
+}  
+
+
+/***********************************************************************************
+    # CEMETRY CARD footer container blyat SUUUKA!!!
+************************************************************************************/
+.cemetry-section .container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.cemetry-card {
+  flex: 0 0 48%;
+  margin: 0 auto;
+
+  display: flex;
+
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+}
+
+.cemetry-map {
+  flex: 0 0 40%;
+  height: 100%;
+  
+  margin-bottom: 20px;
+}
+
+.map {
+  width: 100%;
+  height: 100%;
+}
+
+.cemetry-content {
+  width: 60%;
+  padding: 20px;
+}
+
+.cemetry-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 24px;
+  font-weight: 600;
+  line-height: 30px;
+  letter-spacing: 0px;
+  color: #224C4F;
+
+  margin-bottom: 10px;
+
+}
+
+.address-div {
+  display: flex;
+
+  margin-bottom: 10px;
+}
+
+.pointer {
+  width: 23px;
+  height: 27px;
+  margin-right: 10px;
+}
+
+.address {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  padding-top: 3px;
+  color: #DADADA;
+}
+
+.cemetry-block {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+.cemetry-label {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 600;
+  line-height: 24px;
+  letter-spacing: 0em;
+  color: var(--main-green);
+
+}
+
+.cemetry-txt {
+  font-family: 'Poppins', sans-serif;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0px;
+  color: var(--main-green);
+
+  
+
+}
