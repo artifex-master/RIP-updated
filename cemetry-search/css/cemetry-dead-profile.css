@@ -51,13 +51,11 @@
 .cemetry-dead-profile-data {
   width: 100%;
   height: 100vh;
-  background: yellowgreen;
 }
 
 .cemetry-dead-profile-data__wrapper {
   width: 100%;
-  height: 100vh;
-  background: orangered;
+  height: 40vh;
 }
 
 .cemetry-dead-profile-data__fullname {
@@ -67,13 +65,238 @@
   line-height: 41px;
   color: #224C4F;
 
+  margin-bottom: 24px;
+}
+
+.cemetry-dead-profile-data__profile-info {
+  width: 100%;
+  display: flex;
+  gap: 24px;
+}
+
+.cemetry-dead-profile-data__profile-featured-list {
+  flex: 0 0 38%;
+}
+
+.profile-featured-list-main {
+  /* width: max-content; */
+  position: relative;
+  border-radius: 16px;
+
+  margin-bottom: 23px;
+}
+
+.profile-featured-list-main__img {
+  width: 100%;
+  object-fit: cover;
+}
+
+.profile-featured-list-main__arrow {
+  width: 30px;
+  height: 30px;
+  border: 0;
+  border-radius: 50%;
+  background: #E9EDED;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.profile-featured-list-main__arrow-img {
+  width: 17px;
+  height: 17px;
+}
+
+.profile-featured-list-main__arrow-left {
+  position: absolute;
+  top: 50%;
+  left: 10px;
+}
+
+.profile-featured-list-main__arrow-right {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+}
+
+.profile-featured-list-thumbnail {
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 21px;
+}
+
+.profile-featured-list-thumbnail-photo {
+  border-radius: 4px;
+}
+
+.profile-featured-list-thumbnail-photo.active {
+  border: 5px solid #224C4F;
+}
+
+.profile-featured-list-thumbnail-photo__img {
+  width: 100%;
+  height: 100%;
+}
+
+.cemetry-dead-profile-data__profile-card-info {
+  width: 100%;
+  height: 86vh;
+  background: #FFF;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 16px;
+
+  flex: 0 0 60%;
+
+  position: relative;
+}
+
+.cemetry-dead-profile-data__profile-card-info-center {
+  width: 90%;
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  right: 33px;
+}
+
+.dead-profile-card-info__dob-dod-calendar {
+  display: flex;
+  gap: 20px;
+}
+
+.dead-profile-card-info__dob-dod {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #224C4F;
+
+  margin-bottom: 12px;
+}
+
+.dead-profile-card-info__dob-dod-date {
+  font-family: 'Poppins', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 24px;
+  color: #224C4F;
 
 }
 
+.dead-profile-card-info__line {
+  height: 32px;
+  background: transparent;
+  border-bottom: 1px solid #224C4F;
 
+  margin-bottom: 32px;
+}
 
+.dead-profile-card-info__info-wrapper {
+  width: 100%;
+}
+
+.dead-profile-card-info__info-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 30px;
+  font-weight: 600;
+  line-height: 38px;
+  color: #224C4F;
+
+  margin-bottom: 10px;
+}
+
+.dead-profile-card-info__info-inner {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.dead-profile-card-info__info-line {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.dead-profile-card-info__info-line-title {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+  font-weight: 600;
+  font-style: normal;
+  line-height: 26px;
+  color: #224C4F;
+}
+
+.dead-profile-card-info__info-line-data {
+  font-family: 'Poppins', sans-serif;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 30px;
+  color: #224C4F;
+}
 
 /** Адаптация **/
+/* @media only screen and (max-width: 1280px) {
+  .dead-profile-card-info__info-line {
+    flex-direction: column;
+    justify-content: flex-start;
+  }
+
+  .cemetry-dead-profile-data__profile-card-info {
+    height: 56vh;
+  }
+
+
+} */
+
+/* @media only screen and (max-width: 1024px) {
+  .cemetry-dead-profile-data__profile-info {
+    flex-direction: column;
+    gap: 19px;
+  }
+
+  .profile-featured-list-thumbnail {
+    display: none;
+  }
+
+  .cemetry-dead-profile-data__fullname {
+    display: flex;
+    justify-content: center;
+  }
+
+  .cemetry-dead-profile-data__profile-featured-list {
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+
+  }
+
+  .profile-featured-list-main {
+    flex: 0 0 50%;
+    margin-bottom: 0;
+  }
+
+  .cemetry-dead-profile-data__profile-card-info {
+    width: 100%;
+    flex: 0 0 100%;
+    display: flex;
+    justify-content: center;
+  }
+  
+  .cemetry-dead-profile-data__profile-card-info-center {
+    width: max-content;
+    flex: 0 0 50%;
+    position: relative;
+    top: 21px;
+    left: 0;
+    right: 0;
+  }
+
+
+} */
+
+
 @media only screen and (max-width: 1200px) {
   .cemetry-dead-profile-nav-wrapper {
     flex-direction: column;
